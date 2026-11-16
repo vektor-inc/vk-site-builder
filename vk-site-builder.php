@@ -19,3 +19,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+define( 'VKSB_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+
+require_once VKSB_PLUGIN_DIR . 'inc/patterns/register-patterns.php';
