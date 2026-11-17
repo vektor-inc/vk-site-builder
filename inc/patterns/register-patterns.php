@@ -47,6 +47,8 @@ function vksb_register_pattern_categories() {
 		'vk-site-builder-faq'              => __( 'FAQ (VK Site Builder)', 'vk-site-builder' ),
 		'vk-site-builder-cta'              => __( 'Call to action (VK Site Builder)', 'vk-site-builder' ),
 		'vk-site-builder-problem-solution' => __( 'Problem and solution (VK Site Builder)', 'vk-site-builder' ),
+		'vk-site-builder-features'         => __( 'Features and benefits (VK Site Builder)', 'vk-site-builder' ),
+		'vk-site-builder-details'          => __( 'Details (VK Site Builder)', 'vk-site-builder' ),
 	);
 
 	foreach ( $categories as $name => $label ) {
