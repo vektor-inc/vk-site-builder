@@ -23,8 +23,8 @@
 <h1 class="wp-block-heading has-text-align-center has-xxx-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'Turn your strengths into a website that brings customers', 'vk-site-builder' ); ?></h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"fontSize":"medium","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-medium-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'We listen to what makes your business special and shape it into pages that visitors understand at a glance.', 'vk-site-builder' ); ?></p>
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"fontSize":"medium","className":"is-vk-trim-both"} -->
+<p class="has-text-align-center has-medium-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'We listen to what makes your business special and shape it into pages that visitors understand at a glance.', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
