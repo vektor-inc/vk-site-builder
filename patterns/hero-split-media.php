@@ -42,7 +42,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:image {"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img alt=""/></figure>
+<figure class="wp-block-image size-large"><img src="<?php echo esc_url( vksb_pattern_image_url( 'service-web.jpg' ) ); ?>" alt=""/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

@@ -11,14 +11,17 @@
 
 $vksb_steps = array(
 	array(
+		'image' => 'service-web.jpg',
 		'title' => __( 'Choose a plan', 'vk-site-builder' ),
 		'text'  => __( 'Compare the plans and pick the one that suits you best.', 'vk-site-builder' ),
 	),
 	array(
+		'image' => 'contact-image.jpg',
 		'title' => __( 'Place your order', 'vk-site-builder' ),
 		'text'  => __( 'Enter your details on the order page and confirm the content.', 'vk-site-builder' ),
 	),
 	array(
+		'image' => 'about-office.jpg',
 		'title' => __( 'Receive the product', 'vk-site-builder' ),
 		'text'  => __( 'We ship within three business days. Track your delivery online.', 'vk-site-builder' ),
 	),
@@ -46,7 +49,7 @@ $vksb_steps = array(
 <?php foreach ( $vksb_steps as $vksb_index => $vksb_step ) : ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"bg-secondary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-bg-secondary-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<figure class="wp-block-image size-large" style="margin-top:0;margin-bottom:0"><img alt="" style="aspect-ratio:4/3;object-fit:cover"/></figure>
+<figure class="wp-block-image size-large" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url( vksb_pattern_image_url( $vksb_step['image'] ) ); ?>" alt="" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}},"typography":{"letterSpacing":"0.1em"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->

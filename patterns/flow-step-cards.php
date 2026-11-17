@@ -11,18 +11,22 @@
 
 $vksb_steps = array(
 	array(
+		'image' => 'contact-image.jpg',
 		'title' => __( 'Free consultation', 'vk-site-builder' ),
 		'text'  => __( 'Tell us about your business and what you want your website to do. We take the time to understand what makes you different.', 'vk-site-builder' ),
 	),
 	array(
+		'image' => 'service-seo.jpg',
 		'title' => __( 'Proposal and estimate', 'vk-site-builder' ),
 		'text'  => __( 'We suggest a page structure and a design direction, together with a clear estimate.', 'vk-site-builder' ),
 	),
 	array(
+		'image' => 'service-web.jpg',
 		'title' => __( 'Design and build', 'vk-site-builder' ),
 		'text'  => __( 'We share drafts along the way, so you can check the progress and tell us what you think.', 'vk-site-builder' ),
 	),
 	array(
+		'image' => 'service-support.jpg',
 		'title' => __( 'Launch and support', 'vk-site-builder' ),
 		'text'  => __( 'After launch, we show you how to update the site yourself and help whenever you need it.', 'vk-site-builder' ),
 	),
@@ -79,8 +83,8 @@ $vksb_steps = array(
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"30%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"sizeSlug":"large","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
-<figure class="wp-block-image size-large" style="margin-top:0;margin-bottom:0"><img alt=""/></figure>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:30%"><!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+<figure class="wp-block-image size-large" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url( vksb_pattern_image_url( $vksb_step['image'] ) ); ?>" alt="" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>

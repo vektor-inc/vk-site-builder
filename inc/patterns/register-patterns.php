@@ -24,6 +24,18 @@ const VKSB_PATTERN_HEADERS = array(
 );
 
 /**
+ * パターンの仮の画像の URL を返す
+ *
+ * 画像は assets/images/patterns/ に置く. パターンのファイルから、出力時に esc_url() を通して使う.
+ *
+ * @param string $file_name 画像のファイル名.
+ * @return string 画像の URL.
+ */
+function vksb_pattern_image_url( $file_name ) {
+	return VKSB_PLUGIN_URL . 'assets/images/patterns/' . $file_name;
+}
+
+/**
  * パターンのカテゴリーを登録する
  *
  * @return void
