@@ -15,8 +15,8 @@
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"textColor":"text-secondary-darkbg","fontSize":"small"} -->
-<p class="has-text-align-center has-text-secondary-darkbg-color has-text-color has-small-font-size" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Web production for small businesses', 'vk-site-builder' ); ?></p>
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"text-secondary-darkbg","fontSize":"small"} -->
+<p class="has-text-align-center has-text-secondary-darkbg-color has-text-color has-small-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'Web production for small businesses', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"fontSize":"xxx-large"} -->

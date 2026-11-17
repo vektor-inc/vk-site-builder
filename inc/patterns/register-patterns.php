@@ -29,12 +29,14 @@ const VKSB_PATTERN_HEADERS = array(
  * @return void
  */
 function vksb_register_pattern_categories() {
-	register_block_pattern_category(
-		'vk-site-builder-hero',
-		array(
-			'label' => __( 'Hero (VK Site Builder)', 'vk-site-builder' ),
-		)
+	$categories = array(
+		'vk-site-builder-hero' => __( 'Hero (VK Site Builder)', 'vk-site-builder' ),
+		'vk-site-builder-flow' => __( 'Flow (VK Site Builder)', 'vk-site-builder' ),
 	);
+
+	foreach ( $categories as $name => $label ) {
+		register_block_pattern_category( $name, array( 'label' => $label ) );
+	}
 }
 add_action( 'init', 'vksb_register_pattern_categories' );
 

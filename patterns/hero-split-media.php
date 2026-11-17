@@ -17,8 +17,8 @@
 
 <!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center" style="margin-top:0;margin-bottom:0"><!-- wp:column {"verticalAlignment":"center"} -->
-<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"textColor":"primary","fontSize":"small"} -->
-<p class="has-primary-color has-text-color has-small-font-size" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Free consultation available', 'vk-site-builder' ); ?></p>
+<div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary","fontSize":"small"} -->
+<p class="has-primary-color has-text-color has-small-font-size" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'Free consultation available', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40"}}},"fontSize":"xx-large"} -->
