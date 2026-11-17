@@ -136,3 +136,37 @@ function vksb_vk_icon( $icon, $size, $margin, $color = 'primary', $font_color = 
 		. '</div></div></div>' . "\n"
 		. '<!-- /wp:vk-blocks/icon -->';
 }
+
+/**
+ * VK Blocks のアイコンブロック（背景や枠の無い、アイコンだけ）のマークアップを返す
+ *
+ * ラベルや時刻の横に添える小さなアイコンに使う. 丸い背景の上に白いアイコンを載せると重く見えるため.
+ *
+ * @param string $icon  Font Awesome のアイコン名（例: fa-clock）. スタイルは solid.
+ * @param int    $size  アイコンの大きさ（px）.
+ * @param string $color アイコンの色. カラーパレットのスラッグ.
+ * @param string $align 揃え. left / center / right.
+ * @return string ブロックのマークアップ.
+ */
+function vksb_vk_icon_only( $icon, $size, $color = 'primary', $align = 'left' ) {
+	$attrs = array(
+		'faIcon'     => '<i class="fa-solid ' . $icon . '"></i>',
+		'iconSize'   => $size,
+		'iconMargin' => 0,
+	);
+	if ( 'left' !== $align ) {
+		$attrs['iconAlign'] = $align;
+	}
+	$attrs['iconType']  = '2';
+	$attrs['iconColor'] = $color;
+
+	$frame_class = 'left' === $align ? 'vk_icon_frame' : 'vk_icon_frame text-' . $align;
+	$box         = 'calc(' . $size . 'px + 0px)';
+
+	return '<!-- wp:vk-blocks/icon ' . serialize_block_attributes( $attrs ) . ' -->' . "\n"
+		. '<div class="wp-block-vk-blocks-icon vk_icon"><div class="' . esc_attr( $frame_class . ' is-style-noline' ) . '">'
+		. '<div class="vk_icon_border has-text-color has-' . esc_attr( $color ) . '-color" style="width:' . $box . ';height:' . $box . '">'
+		. '<i style="font-size:' . $size . 'px" class="fa-solid vk_icon_font  ' . esc_attr( $icon ) . '"></i>'
+		. '</div></div></div>' . "\n"
+		. '<!-- /wp:vk-blocks/icon -->';
+}
