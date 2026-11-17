@@ -16,12 +16,12 @@
 <!-- /wp:spacer -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"640px","justifyContent":"left"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0"}}},"fontSize":"xxx-large"} -->
-<h1 class="wp-block-heading has-xxx-large-font-size" style="margin-top:0"><?php esc_html_e( 'Small team, careful work', 'vk-site-builder' ); ?></h1>
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:heading {"level":1,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"xxx-large","className":"is-vk-trim-both"} -->
+<h1 class="wp-block-heading has-xxx-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'Small team, careful work', 'vk-site-builder' ); ?></h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"0"}}},"fontSize":"medium"} -->
-<p class="has-medium-font-size" style="margin-bottom:0"><?php esc_html_e( 'We take on a limited number of projects each month so that every client gets our full attention.', 'vk-site-builder' ); ?></p>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"fontSize":"medium","className":"is-vk-trim-both"} -->
+<p class="has-medium-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'We take on a limited number of projects each month so that every client gets our full attention.', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
