@@ -45,6 +45,7 @@ function vksb_register_pattern_categories() {
 		'vk-site-builder-hero' => __( 'Hero (VK Site Builder)', 'vk-site-builder' ),
 		'vk-site-builder-flow' => __( 'Flow (VK Site Builder)', 'vk-site-builder' ),
 		'vk-site-builder-faq'  => __( 'FAQ (VK Site Builder)', 'vk-site-builder' ),
+		'vk-site-builder-cta'  => __( 'Call to action (VK Site Builder)', 'vk-site-builder' ),
 	);
 
 	foreach ( $categories as $name => $label ) {
