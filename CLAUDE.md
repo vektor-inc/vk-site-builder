@@ -5,6 +5,8 @@
 - 基本的な余白の考え方は design-rules-spacing.md に必ず従う。
 - ブロックの組み方は vk-block-editor-rules スキルに従う。ここには、このプラグイン固有の決め事だけを書く。
 - スペーサーには WordPress コアのスペーサーブロック（`core/spacer`）を使う。VK Blocks のスペーサーブロックは使わない。
+- カスタム CSS は、基本的に書かない。見た目は、ブロックの設定（色・文字・余白などのプリセット）と、ブロックの組み方だけで作る。
+  - VK Blocks Pro のカスタム CSS も、WordPress 標準の機能で書く CSS も、どちらも使わない。
 
 ## vk-block-editor-rules へ移す候補（実験中）
 
