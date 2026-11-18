@@ -41,8 +41,8 @@ $vksb_specs = array(
 <p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'Our most popular plan for small businesses. It includes everything you need to start, from planning to support after launch.', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:table {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}}} -->
-<figure class="wp-block-table" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><table class="has-fixed-layout"><tbody><?php foreach ( $vksb_specs as $vksb_label => $vksb_value ) : ?><tr><td><strong><?php echo esc_html( $vksb_label ); ?></strong></td><td><?php echo esc_html( $vksb_value ); ?></td></tr><?php endforeach; ?></tbody></table></figure>
+<!-- wp:table {"className":"is-style-vk-table-border-top-bottom","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"fontSize":"small"} -->
+<figure class="wp-block-table is-style-vk-table-border-top-bottom has-small-font-size" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><table><tbody><?php foreach ( $vksb_specs as $vksb_label => $vksb_value ) : ?><tr><td><strong><?php echo esc_html( $vksb_label ); ?></strong></td><td><?php echo esc_html( $vksb_value ); ?></td></tr><?php endforeach; ?></tbody></table></figure>
 <!-- /wp:table --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
