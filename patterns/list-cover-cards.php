@@ -10,9 +10,9 @@
  */
 
 $vksb_items = array(
-	array( 'about-office.jpg', __( '小学生コース', 'vk-site-builder' ), __( '一人ひとりの学年や学力に合わせて、楽しく学べるプログラムを用意しています。', 'vk-site-builder' ) ),
-	array( 'pc-data.jpg', __( '中学生コース', 'vk-site-builder' ), __( '定期テスト対策から高校受験まで、学力アップをしっかりサポートします。', 'vk-site-builder' ) ),
-	array( 'contact-image.jpg', __( '高校生コース', 'vk-site-builder' ), __( '大学受験対策から定期試験・内申対策まで、幅広く対応します。', 'vk-site-builder' ) ),
+	array( 'school-boy-smile.jpg', __( '小学生コース', 'vk-site-builder' ), __( '一人ひとりの学年や学力に合わせて、楽しく学べるプログラムを用意しています。', 'vk-site-builder' ) ),
+	array( 'school-boy-studying.jpg', __( '中学生コース', 'vk-site-builder' ), __( '定期テスト対策から高校受験まで、学力アップをしっかりサポートします。', 'vk-site-builder' ) ),
+	array( 'school-girl-studying-1.jpg', __( '高校生コース', 'vk-site-builder' ), __( '大学受験対策から定期試験・内申対策まで、幅広く対応します。', 'vk-site-builder' ) ),
 );
 ?>
 <!-- wp:group {"align":"full","style":{"border":{"bottom":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"padding":{"top":"0","right":"var:preset|spacing|50","bottom":"0","left":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
