@@ -42,16 +42,16 @@ function vksb_pattern_image_url( $file_name ) {
  */
 function vksb_register_pattern_categories() {
 	$categories = array(
-		'vk-site-builder-hero'             => __( 'Hero (VK Site Builder)', 'vk-site-builder' ),
-		'vk-site-builder-flow'             => __( 'Flow (VK Site Builder)', 'vk-site-builder' ),
-		'vk-site-builder-faq'              => __( 'FAQ (VK Site Builder)', 'vk-site-builder' ),
-		'vk-site-builder-cta'              => __( 'Call to action (VK Site Builder)', 'vk-site-builder' ),
-		'vk-site-builder-problem-solution' => __( 'Problem and solution (VK Site Builder)', 'vk-site-builder' ),
-		'vk-site-builder-features'         => __( 'Features and benefits (VK Site Builder)', 'vk-site-builder' ),
-		'vk-site-builder-list'             => __( 'List (VK Site Builder)', 'vk-site-builder' ),
-		'vk-site-builder-voice'            => __( 'Testimonials and case studies (VK Site Builder)', 'vk-site-builder' ),
-		'vk-site-builder-details'          => __( 'Details (VK Site Builder)', 'vk-site-builder' ),
-		'vk-site-builder-price'            => __( 'Price (VK Site Builder)', 'vk-site-builder' ),
+		'vk-site-builder-hero'             => __( '[ VKSB ] ヒーロー', 'vk-site-builder' ),
+		'vk-site-builder-flow'             => __( '[ VKSB ] 流れ・手順', 'vk-site-builder' ),
+		'vk-site-builder-faq'              => __( '[ VKSB ] よくある質問', 'vk-site-builder' ),
+		'vk-site-builder-cta'              => __( '[ VKSB ] CTA', 'vk-site-builder' ),
+		'vk-site-builder-problem-solution' => __( '[ VKSB ] お悩みと解決策', 'vk-site-builder' ),
+		'vk-site-builder-features'         => __( '[ VKSB ] 機能・特長', 'vk-site-builder' ),
+		'vk-site-builder-list'             => __( '[ VKSB ] 一覧', 'vk-site-builder' ),
+		'vk-site-builder-voice'            => __( '[ VKSB ] お客さまの声・事例', 'vk-site-builder' ),
+		'vk-site-builder-details'          => __( '[ VKSB ] 詳細説明', 'vk-site-builder' ),
+		'vk-site-builder-price'            => __( '[ VKSB ] 料金', 'vk-site-builder' ),
 	);
 
 	foreach ( $categories as $name => $label ) {
