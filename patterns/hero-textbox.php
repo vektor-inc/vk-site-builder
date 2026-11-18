@@ -5,6 +5,8 @@
  * Description: A hero area with a full-width photo and a translucent white text box on the left, with a heading, a subtitle, a description, and a button.
  * Categories: vk-site-builder-hero
  * Keywords: hero, main visual, cover, text box
+ * Layout: stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: A section that lists the steps of a process as bordered cards, each with a step number, a title, a description, and an image.
  * Categories: vk-site-builder-flow
  * Keywords: flow, steps, process
+ * Layout: stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

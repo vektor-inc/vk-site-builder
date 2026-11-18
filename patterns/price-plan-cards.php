@@ -5,6 +5,8 @@
  * Description: A price section with three plan cards. Each card has a plan name, a price, a short description, a checklist of what is included, and a button. The recommended plan in the middle has a key color header and a filled button.
  * Categories: vk-site-builder-price
  * Keywords: price, plans, pricing table, cards, recommended
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

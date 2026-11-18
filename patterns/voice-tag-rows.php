@@ -5,6 +5,8 @@
  * Description: A centered heading and a stack of light gray boxes, each with a person illustration on the left, and an attribute, a catch phrase in the key color, tags for the services used, and a comment on the right.
  * Categories: vk-site-builder-voice
  * Keywords: testimonials, customer voice, users, services, tags, care, welfare
+ * Layout: stack
+ * Images: person
  *
  * @package VK_Site_Builder
  */

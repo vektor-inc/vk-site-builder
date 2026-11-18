@@ -5,6 +5,8 @@
  * Description: A centered heading and three cards in three columns, each a photo covered with the key color, with a centered title, a text, and an outline button. For a list of courses or plans that link to detail pages.
  * Categories: vk-site-builder-list
  * Keywords: list, courses, plans, menu, cards, cover, image, buttons
+ * Layout: grid
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

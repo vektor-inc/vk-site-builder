@@ -5,6 +5,8 @@
  * Description: A section that lists frequently asked questions with Q and A marks, divided by lines. All answers are always visible.
  * Categories: vk-site-builder-faq
  * Keywords: faq, questions, answers, list
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

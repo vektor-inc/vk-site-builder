@@ -5,6 +5,8 @@
  * Description: A section that shows the steps of a process as cards on a light background, each with an image, a step label, a title, and a description.
  * Categories: vk-site-builder-flow
  * Keywords: flow, steps, process, cards, image
+ * Layout: grid
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: A price list for menus and services. Items are grouped by category in two columns, and each row shows the item name, a short note, and the price on the right.
  * Categories: vk-site-builder-price
  * Keywords: price, menu, price list, salon, cafe, services
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

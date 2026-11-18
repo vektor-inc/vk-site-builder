@@ -5,6 +5,8 @@
  * Description: A simple explanation with a heading, a text, and a screenshot below it. Suited for introducing a new feature of a theme or a plugin.
  * Categories: vk-site-builder-details
  * Keywords: details, new feature, screenshot, simple, image and text
+ * Layout: stack
+ * Images: figure, photo
  *
  * @package VK_Site_Builder
  */

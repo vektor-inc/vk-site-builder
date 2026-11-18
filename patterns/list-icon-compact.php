@@ -5,6 +5,8 @@
  * Description: A centered heading and twelve compact items in four columns on a light background, each with a small icon, a title, and a one-line text. For a long list of features.
  * Categories: vk-site-builder-list
  * Keywords: list, features, functions, icons, grid, many items
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

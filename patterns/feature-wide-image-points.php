@@ -5,6 +5,8 @@
  * Description: A section with a label, a heading, and a text, followed by a wide photo and three points with icons below it.
  * Categories: vk-site-builder-features
  * Keywords: features, benefits, product, points, icons
+ * Layout: grid, stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

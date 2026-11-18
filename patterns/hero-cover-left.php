@@ -5,6 +5,8 @@
  * Description: A tall full-width cover hero with left-aligned text. Add a background image to finish it.
  * Categories: vk-site-builder-hero, banner
  * Keywords: hero, header, main visual, cover, background image
+ * Layout: stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

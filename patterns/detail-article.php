@@ -5,6 +5,8 @@
  * Description: A detailed explanation with a label, a heading, and a lead text, followed by a wide photo and several paragraphs divided by small headings.
  * Categories: vk-site-builder-details
  * Keywords: details, description, service, product, article, image and text
+ * Layout: stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

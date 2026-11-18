@@ -5,6 +5,8 @@
  * Description: A two-column section with a photo on the left, and a heading, a text, a checklist of features, and a button on the right.
  * Categories: vk-site-builder-features
  * Keywords: features, benefits, product, service, image and text
+ * Layout: split
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: Full-width rows of a photo that reaches the edge of the screen and a text on the key color with a heading and a button. The text stays inside the content width, and the photo switches sides on each row.
  * Categories: vk-site-builder-features
  * Keywords: features, image and text, full width, zigzag, half content width, background color
+ * Layout: split-rows
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

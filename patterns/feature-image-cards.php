@@ -5,6 +5,8 @@
  * Description: A section on a light background with a centered heading and three white cards, each with a photo, a title, and a text, followed by a button.
  * Categories: vk-site-builder-features
  * Keywords: features, benefits, services, cards, image and text
+ * Layout: grid
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

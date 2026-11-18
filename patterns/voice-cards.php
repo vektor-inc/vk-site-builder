@@ -5,6 +5,8 @@
  * Description: A centered heading and three white cards on a light background, each with a quote icon, a short catch phrase, a comment, and the name and job of the customer.
  * Categories: vk-site-builder-voice
  * Keywords: testimonials, customer voice, reviews, quotes, cards
+ * Layout: grid
+ * Images: person
  *
  * @package VK_Site_Builder
  */

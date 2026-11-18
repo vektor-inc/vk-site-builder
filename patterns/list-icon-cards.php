@@ -5,6 +5,8 @@
  * Description: A centered heading and six bordered cards in three columns, each with an icon, a title, and a short text. For a list of features or services.
  * Categories: vk-site-builder-list
  * Keywords: list, features, services, cards, icons, grid
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

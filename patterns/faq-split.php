@@ -5,6 +5,8 @@
  * Description: A two-column section with a heading, a lead text, and a contact button on the left, and frequently asked questions as an accordion on the right.
  * Categories: vk-site-builder-faq
  * Keywords: faq, questions, accordion, contact
+ * Layout: split
+ * Images: none
  *
  * @package VK_Site_Builder
  */

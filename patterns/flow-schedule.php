@@ -5,6 +5,8 @@
  * Description: A section on a light background that shows the schedule of a day as rows, each with a time, a title, a description, and a photo.
  * Categories: vk-site-builder-flow
  * Keywords: flow, schedule, timeline, day
+ * Layout: stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

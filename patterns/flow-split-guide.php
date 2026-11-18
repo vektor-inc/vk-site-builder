@@ -5,6 +5,8 @@
  * Description: A two-column section with a photo, a heading, a lead text, and a button on the left, and the steps of a process on the right.
  * Categories: vk-site-builder-flow
  * Keywords: flow, steps, process, guide
+ * Layout: split
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: A section that shows the steps of a process side by side, each with a line on top, a large number, a title, and a description.
  * Categories: vk-site-builder-flow
  * Keywords: flow, steps, process, columns
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

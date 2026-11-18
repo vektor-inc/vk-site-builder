@@ -5,6 +5,8 @@
  * Description: A left-aligned heading and six white cards in three columns on a light background. Each card has a large icon in a white tab that sticks out above the card, a centered title, and a text. For a list of benefits or systems.
  * Categories: vk-site-builder-list
  * Keywords: list, benefits, welfare, recruit, cards, icons, grid
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

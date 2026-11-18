@@ -5,6 +5,8 @@
  * Description: Rows of a person illustration with a name on the left, and a bordered box on the right with two comments, such as from a student and a parent, separated by a line.
  * Categories: vk-site-builder-voice
  * Keywords: testimonials, customer voice, student, parent, school, two voices
+ * Layout: stack
+ * Images: person
  *
  * @package VK_Site_Builder
  */

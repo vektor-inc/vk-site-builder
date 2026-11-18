@@ -5,6 +5,8 @@
  * Description: A concept section. A label and a large heading sit next to a wide photo that reaches the edge of the screen, followed by a tall photo and a long text that explains the idea.
  * Categories: vk-site-builder-features
  * Keywords: features, concept, philosophy, message, full width, half content width
+ * Layout: split-rows
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

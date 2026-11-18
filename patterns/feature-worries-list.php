@@ -5,6 +5,8 @@
  * Description: A section with a centered question as the heading, followed by white boxes that each have a worried face icon and a short worry, on a background split diagonally into white and light gray.
  * Categories: vk-site-builder-features
  * Keywords: features, worries, problems, list, icon
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

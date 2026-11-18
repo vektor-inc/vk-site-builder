@@ -5,6 +5,8 @@
  * Description: A centered heading and eight white cards in four columns on a light background, each with a white icon in a key color circle, a centered title, and a short text. For a list of app or product features.
  * Categories: vk-site-builder-list
  * Keywords: list, features, functions, app, product, cards, icons, grid
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

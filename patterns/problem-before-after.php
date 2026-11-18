@@ -5,6 +5,8 @@
  * Description: A section that compares the situation before and after in two boxes side by side, followed by a button.
  * Categories: vk-site-builder-problem-solution
  * Keywords: problems, solution, before, after, comparison
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

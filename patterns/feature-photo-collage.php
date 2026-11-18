@@ -5,6 +5,8 @@
  * Description: Full-width rows of a centered heading, a text, and a button, next to a collage of one tall photo and two small photos that reaches the edge of the screen. The collage switches sides on each row.
  * Categories: vk-site-builder-features
  * Keywords: features, services, photo collage, gallery, full width, half content width
+ * Layout: split-rows
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

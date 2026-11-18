@@ -5,6 +5,8 @@
  * Description: A photo beside a checklist of common problems, followed by the solution on a full-width photo covered with the main color.
  * Categories: vk-site-builder-problem-solution
  * Keywords: problems, worries, solution, photo, checklist
+ * Layout: split, stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

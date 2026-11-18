@@ -5,6 +5,8 @@
  * Description: A section that lists the steps of a process as a vertical timeline, with a step circle on the left joined by a line, and a title and a description on the right.
  * Categories: vk-site-builder-flow
  * Keywords: flow, steps, process, timeline
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: A call to action on a full-width dark background, with a centered heading, a short text, and two buttons.
  * Categories: vk-site-builder-cta
  * Keywords: cta, call to action, contact, dark
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: Four colored columns that fill the screen width with no gap, each with a title, a label, a short text, and a "learn more" text at the bottom. For a list of courses or programs.
  * Categories: vk-site-builder-list
  * Keywords: list, courses, programs, menu, banners, full width, color
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

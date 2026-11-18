@@ -5,6 +5,8 @@
  * Description: A call to action on a light background, with a photo on the left and a label, a heading, a text, and buttons on the right.
  * Categories: vk-site-builder-cta
  * Keywords: cta, call to action, contact, photo, columns
+ * Layout: split
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

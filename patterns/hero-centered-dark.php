@@ -5,6 +5,8 @@
  * Description: A full-width hero with a centered heading, lead text, and two buttons on a photo with a dark overlay.
  * Categories: vk-site-builder-hero, banner
  * Keywords: hero, header, main visual
+ * Layout: stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

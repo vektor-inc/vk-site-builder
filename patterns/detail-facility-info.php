@@ -5,6 +5,8 @@
  * Description: A detailed explanation of a facility with a centered heading and a wide photo, followed by a description on the left and a table of information such as address and opening hours on the right.
  * Categories: vk-site-builder-details
  * Keywords: details, facility, access, opening hours, table, image and text
+ * Layout: split, stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

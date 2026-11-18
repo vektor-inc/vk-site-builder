@@ -5,6 +5,8 @@
  * Description: A section that shows common problems as cards with photos, followed by a box in the main color with a photo and the solution.
  * Categories: vk-site-builder-problem-solution
  * Keywords: problems, worries, solution, cards, photo
+ * Layout: grid, split
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: A white box placed over a light gray background that is shifted to one side. The box has a heading and rows of a photo on the left and a heading, a text, and a button on the right.
  * Categories: vk-site-builder-features
  * Keywords: features, services, offset background, image and text, box
+ * Layout: split-rows
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

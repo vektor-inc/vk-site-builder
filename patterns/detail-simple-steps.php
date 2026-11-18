@@ -5,6 +5,8 @@
  * Description: A how-to section with a heading and numbered steps. Each step is a bordered box with a round step number, a small heading, a text, and a screenshot, connected by arrows.
  * Categories: vk-site-builder-details
  * Keywords: details, how to use, steps, screenshot, simple
+ * Layout: stack
+ * Images: figure, photo
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: A centered heading and three reviews in three columns, each with a five-star rating, a title, a comment, and the name of the reviewer.
  * Categories: vk-site-builder-voice
  * Keywords: testimonials, reviews, ratings, stars, app, product
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

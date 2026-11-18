@@ -5,6 +5,8 @@
  * Description: A call to action on a full-width photo covered with the main color, with a centered heading, a short text, and a button.
  * Categories: vk-site-builder-cta
  * Keywords: cta, call to action, contact, cover, photo
+ * Layout: stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

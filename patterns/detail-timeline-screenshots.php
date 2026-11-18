@@ -5,6 +5,8 @@
  * Description: A how-to section that explains how to use a product or a plugin as a vertical timeline. Each step has a step circle on the left joined by a line, and a title, a description, and a large screenshot on the right.
  * Categories: vk-site-builder-details
  * Keywords: details, how to use, steps, timeline, screenshot, manual
+ * Layout: stack
+ * Images: figure, photo
  *
  * @package VK_Site_Builder
  */

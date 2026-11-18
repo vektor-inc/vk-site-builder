@@ -5,6 +5,8 @@
  * Description: A section with a centered heading, followed by rows of a photo and a text that switch sides on each row. On smartphones, the photo always comes first.
  * Categories: vk-site-builder-features
  * Keywords: features, benefits, points, zigzag, image and text
+ * Layout: split-rows
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

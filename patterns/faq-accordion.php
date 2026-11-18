@@ -5,6 +5,8 @@
  * Description: A section that lists frequently asked questions as an accordion. Each answer opens when the question is clicked.
  * Categories: vk-site-builder-faq
  * Keywords: faq, questions, accordion, details
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

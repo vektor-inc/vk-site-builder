@@ -5,6 +5,8 @@
  * Description: A call to action on a full-width band in the main color, with a heading and a text on the left and a button on the right.
  * Categories: vk-site-builder-cta
  * Keywords: cta, call to action, contact, band
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

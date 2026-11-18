@@ -5,6 +5,8 @@
  * Description: A simple explanation with a heading and a text, followed by two screenshots side by side, each with a short caption. Suited for showing a change before and after.
  * Categories: vk-site-builder-details
  * Keywords: details, new feature, before and after, screenshots, simple
+ * Layout: grid
+ * Images: figure, photo
  *
  * @package VK_Site_Builder
  */

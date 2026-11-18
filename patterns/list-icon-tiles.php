@@ -5,6 +5,8 @@
  * Description: A centered heading and eight light gray tiles in four columns, each with a large icon and a short label. Two columns on smartphones. For a list of departments or categories.
  * Categories: vk-site-builder-list
  * Keywords: list, departments, categories, menu, icons, tiles, grid
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

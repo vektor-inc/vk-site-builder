@@ -5,6 +5,8 @@
  * Description: Full-width rows on a light gray background that is shifted to one side. Each row has a heading, a text, and a button, and a tall photo that reaches the edge of the screen. The photo switches sides on each row.
  * Categories: vk-site-builder-features
  * Keywords: features, offset background, image and text, full width, half content width
+ * Layout: split-rows
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

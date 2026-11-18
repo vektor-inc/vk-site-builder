@@ -5,6 +5,8 @@
  * Description: A simple two-column explanation with a small heading and a text on the left and a screenshot on the right. You can repeat it to introduce several features.
  * Categories: vk-site-builder-details
  * Keywords: details, new feature, screenshot, simple, side by side
+ * Layout: split
+ * Images: figure, photo
  *
  * @package VK_Site_Builder
  */

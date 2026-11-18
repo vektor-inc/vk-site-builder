@@ -5,6 +5,8 @@
  * Description: A full-width hero with text on the left and an image on the right.
  * Categories: vk-site-builder-hero, banner
  * Keywords: hero, header, main visual, image
+ * Layout: split
+ * Images: photo, figure
  *
  * @package VK_Site_Builder
  */

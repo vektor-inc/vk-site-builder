@@ -5,6 +5,8 @@
  * Description: A centered heading and nine white cards in three columns on a light background, each with a photo, a title, and a short text. For a list of services or menus.
  * Categories: vk-site-builder-list
  * Keywords: list, services, menu, cards, image and text, grid, many items
+ * Layout: grid
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

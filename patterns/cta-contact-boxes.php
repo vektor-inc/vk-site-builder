@@ -5,6 +5,8 @@
  * Description: A contact section with a heading and two boxes side by side, one for the phone number and one for the contact form.
  * Categories: vk-site-builder-cta
  * Keywords: cta, contact, phone, form
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

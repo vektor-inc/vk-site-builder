@@ -5,6 +5,8 @@
  * Description: A table that compares three plans by price and features, with item names on the left. The recommended plan in the middle is surrounded by a key color frame. The columns stay side by side on smartphones.
  * Categories: vk-site-builder-price
  * Keywords: price, plans, comparison, pricing table, recommended
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

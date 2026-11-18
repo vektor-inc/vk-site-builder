@@ -5,6 +5,8 @@
  * Description: A section on a light background that lists common problems in a white box, followed by the solution with a heading, a text, and a button.
  * Categories: vk-site-builder-problem-solution
  * Keywords: problems, worries, solution, checklist
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

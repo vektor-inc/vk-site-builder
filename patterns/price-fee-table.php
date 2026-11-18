@@ -5,6 +5,8 @@
  * Description: A fee section for professional services, with a short introduction, a table of items, fees, and notes, and a list of notes about payment below it.
  * Categories: vk-site-builder-price
  * Keywords: price, fees, table, notes, consultation, professional
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

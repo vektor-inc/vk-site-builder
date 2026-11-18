@@ -5,6 +5,8 @@
  * Description: A price section that shows what the total cost is made of. Boxes with a label, an icon, and a price are joined with plus signs, followed by a short note.
  * Categories: vk-site-builder-price
  * Keywords: price, breakdown, fees, initial cost, monthly fee, icon
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

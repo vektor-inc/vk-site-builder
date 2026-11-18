@@ -5,6 +5,8 @@
  * Description: Rows of a photo and a white text box with a shadow that overlaps the photo and sits a little lower. The photo switches sides on each row. On smartphones, the box comes below the photo.
  * Categories: vk-site-builder-features
  * Keywords: features, image and text, overlap, offset, shadow, zigzag
+ * Layout: split-rows
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

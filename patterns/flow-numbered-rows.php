@@ -5,6 +5,8 @@
  * Description: A section that lists the steps of a process as rows divided by lines, each with a step badge, a title, and a description.
  * Categories: vk-site-builder-flow
  * Keywords: flow, steps, process, list
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

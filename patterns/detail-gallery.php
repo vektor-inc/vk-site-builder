@@ -5,6 +5,8 @@
  * Description: A two-column detailed explanation with a main photo and three smaller photos on the left, and a label, a heading, several paragraphs, and a button on the right.
  * Categories: vk-site-builder-details
  * Keywords: details, description, product, gallery, photos, image and text
+ * Layout: split
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

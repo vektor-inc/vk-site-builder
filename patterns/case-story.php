@@ -5,6 +5,8 @@
  * Description: One case study on a light background. A photo and the company profile table sit side by side, followed by three white boxes for the challenge, the solution, and the result.
  * Categories: vk-site-builder-voice
  * Keywords: case studies, works, results, challenge, solution, company profile, table
+ * Layout: grid, split
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

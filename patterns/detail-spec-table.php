@@ -5,6 +5,8 @@
  * Description: A two-column detailed explanation with a photo on the left, and a label, a heading, a text, and a table of specifications on the right.
  * Categories: vk-site-builder-details
  * Keywords: details, specifications, product, table, image and text
+ * Layout: split
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

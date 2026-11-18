@@ -5,6 +5,8 @@
  * Description: A centered heading and eight items in two columns, each a row with a title, a short text, and an arrow, separated by lines. For a list of menus or departments that link to detail pages.
  * Categories: vk-site-builder-list
  * Keywords: list, menu, departments, services, rows, links, many items
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: A centered heading and four large numbers with labels in four columns on a key color background, followed by a note. For showing results and track records in numbers.
  * Categories: vk-site-builder-voice
  * Keywords: results, track record, numbers, statistics, achievements
+ * Layout: grid
+ * Images: none
  *
  * @package VK_Site_Builder
  */

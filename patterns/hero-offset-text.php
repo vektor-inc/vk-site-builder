@@ -5,6 +5,8 @@
  * Description: A hero area with a wide photo and a white text box that overlaps its bottom edge, followed by an introduction.
  * Categories: vk-site-builder-hero
  * Keywords: hero, main visual, cover
+ * Layout: stack
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

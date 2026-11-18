@@ -5,6 +5,8 @@
  * Description: A section that shows each problem and its solution side by side, with the problem in a gray box and the solution in a box framed in the main color.
  * Categories: vk-site-builder-problem-solution
  * Keywords: problems, worries, solution, before and after
+ * Layout: split-rows
+ * Images: none
  *
  * @package VK_Site_Builder
  */

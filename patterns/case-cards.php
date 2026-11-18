@@ -5,6 +5,8 @@
  * Description: A centered heading and three case study cards, each with a photo, an industry label, a title, and a result box, followed by a button to the list of cases.
  * Categories: vk-site-builder-voice
  * Keywords: case studies, works, results, examples, cards, image and text
+ * Layout: grid
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

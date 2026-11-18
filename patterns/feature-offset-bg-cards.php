@@ -5,6 +5,8 @@
  * Description: A white box placed over a light gray background that is shifted to one side. The box has a heading, an introduction, and three cards with a photo, a heading, a text, and a button.
  * Categories: vk-site-builder-features
  * Keywords: features, cards, offset background, three columns, box
+ * Layout: grid
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

@@ -5,6 +5,8 @@
  * Description: A section that lists the steps of a process with a step label and an icon on the left joined by a dashed line, and a card with a title and a description on the right. Uses the VK Blocks icon block.
  * Categories: vk-site-builder-flow
  * Keywords: flow, steps, process, timeline, icon
+ * Layout: stack
+ * Images: none
  *
  * @package VK_Site_Builder
  */

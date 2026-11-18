@@ -5,6 +5,8 @@
  * Description: A section that shows common worries as quotes with round portraits, followed by a down arrow and the solution with a heading, a text, and a button.
  * Categories: vk-site-builder-problem-solution
  * Keywords: problems, worries, voices, solution
+ * Layout: grid, stack
+ * Images: person
  *
  * @package VK_Site_Builder
  */

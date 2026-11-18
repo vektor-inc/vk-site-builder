@@ -5,6 +5,8 @@
  * Description: A centered heading and three columns, each with a round portrait photo, a name, a catch phrase, and a comment.
  * Categories: vk-site-builder-voice
  * Keywords: testimonials, customer voice, students, portraits, photos, columns
+ * Layout: grid
+ * Images: person
  *
  * @package VK_Site_Builder
  */

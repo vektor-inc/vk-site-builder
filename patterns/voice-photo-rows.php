@@ -5,6 +5,8 @@
  * Description: A centered heading and two rows of a customer photo and a long comment with a catch phrase and the name of the customer. The photo switches sides on each row.
  * Categories: vk-site-builder-voice
  * Keywords: testimonials, customer voice, interview, image and text, zigzag
+ * Layout: split-rows
+ * Images: photo
  *
  * @package VK_Site_Builder
  */

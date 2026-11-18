@@ -5,6 +5,8 @@
  * Description: A section with a centered heading and a two-column grid of large photos, each with a title and a short text. Suited for introducing rooms, facilities, or products.
  * Categories: vk-site-builder-features
  * Keywords: features, facilities, rooms, gallery, image and text
+ * Layout: grid
+ * Images: photo
  *
  * @package VK_Site_Builder
  */
