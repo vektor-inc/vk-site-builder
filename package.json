@@ -1,0 +1,18 @@
+{
+	"name": "vk-site-builder",
+	"version": "0.0.0",
+	"private": true,
+	"description": "VK Site Builder",
+	"scripts": {
+		"wp-env": "wp-env",
+		"dist": "rm -rf ./dist/vk-site-builder/ ./dist/vk-site-builder.zip && composer install --no-dev --optimize-autoloader --prefer-dist && npm run dist:copy && npm run zip",
+		"dist:copy": "mkdir -p dist/vk-site-builder && cp -R vk-site-builder.php readme.txt inc patterns assets vendor dist/vk-site-builder/",
+		"zip": "cd dist && zip -r -q vk-site-builder.zip vk-site-builder -x '*.DS_Store'",
+		"phpunit": "composer install && wp-env run tests-cli --env-cwd='wp-content/plugins/vk-site-builder' vendor/bin/phpunit -c .phpunit.xml"
+	},
+	"author": "Vektor,Inc.",
+	"license": "GPL-2.0-or-later",
+	"devDependencies": {
+		"@wordpress/env": "10.4.0"
+	}
+}
