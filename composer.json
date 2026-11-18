@@ -1,0 +1,18 @@
+{
+	"name": "vektor-inc/vk-site-builder",
+	"type": "project",
+	"authors": [
+		{
+			"name": "vektor",
+			"email": "info@vektor-inc.co.jp"
+		}
+	],
+	"require": {
+		"yahnis-elsts/plugin-update-checker": "^5.0"
+	},
+	"require-dev": {
+		"wp-phpunit/wp-phpunit": "^6.0",
+		"yoast/phpunit-polyfills": "^1.1",
+		"phpunit/phpunit": "^9.6"
+	}
+}
