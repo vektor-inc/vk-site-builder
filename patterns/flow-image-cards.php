@@ -12,18 +12,18 @@
 $vksb_steps = array(
 	array(
 		'image' => 'service-web.jpg',
-		'title' => __( 'Choose a plan', 'vk-site-builder' ),
-		'text'  => __( 'Compare the plans and pick the one that suits you best.', 'vk-site-builder' ),
+		'title' => __( 'プランを選ぶ', 'vk-site-builder' ),
+		'text'  => __( 'プランを比べて、ぴったりのものをお選びください。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'contact-image.jpg',
-		'title' => __( 'Place your order', 'vk-site-builder' ),
-		'text'  => __( 'Enter your details on the order page and confirm the content.', 'vk-site-builder' ),
+		'title' => __( '注文する', 'vk-site-builder' ),
+		'text'  => __( '注文ページでお客さま情報を入力し、内容を確認します。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'about-office.jpg',
-		'title' => __( 'Receive the product', 'vk-site-builder' ),
-		'text'  => __( 'We ship within three business days. Track your delivery online.', 'vk-site-builder' ),
+		'title' => __( '商品を受け取る', 'vk-site-builder' ),
+		'text'  => __( '3営業日以内に発送します。配送状況はオンラインで確認できます。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -33,11 +33,11 @@ $vksb_steps = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'How to order', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'ご注文の流れ', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'Order online in three easy steps', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '3つのかんたんな手順で、オンラインで注文できます', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

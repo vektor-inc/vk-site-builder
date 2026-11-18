@@ -13,26 +13,26 @@ $vksb_items = array(
 	array(
 		'time'  => '10:00',
 		'image' => 'about-office.jpg',
-		'title' => __( 'Reception', 'vk-site-builder' ),
-		'text'  => __( 'Please come to the front desk on the first floor. Tell us your name and we will guide you.', 'vk-site-builder' ),
+		'title' => __( '受付', 'vk-site-builder' ),
+		'text'  => __( '1階の受付にお越しください。お名前をお伝えいただければ、ご案内します。', 'vk-site-builder' ),
 	),
 	array(
 		'time'  => '10:15',
 		'image' => 'contact-image.jpg',
-		'title' => __( 'Consultation', 'vk-site-builder' ),
-		'text'  => __( 'We listen to your concerns and explain what we can do for you.', 'vk-site-builder' ),
+		'title' => __( 'ご相談', 'vk-site-builder' ),
+		'text'  => __( 'お悩みをうかがい、私たちにできることをご説明します。', 'vk-site-builder' ),
 	),
 	array(
 		'time'  => '11:00',
 		'image' => 'service-web.jpg',
-		'title' => __( 'Trial session', 'vk-site-builder' ),
-		'text'  => __( 'Try the actual service for about forty minutes.', 'vk-site-builder' ),
+		'title' => __( '体験', 'vk-site-builder' ),
+		'text'  => __( '実際のサービスを、40分ほど体験していただけます。', 'vk-site-builder' ),
 	),
 	array(
 		'time'  => '11:45',
 		'image' => 'service-support.jpg',
-		'title' => __( 'Questions and next steps', 'vk-site-builder' ),
-		'text'  => __( 'We answer your questions. You can decide later, so there is no need to hurry.', 'vk-site-builder' ),
+		'title' => __( 'ご質問・今後について', 'vk-site-builder' ),
+		'text'  => __( 'ご質問にお答えします。お返事は後日でかまいませんので、急いで決める必要はありません。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -42,11 +42,11 @@ $vksb_items = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'On the day of your visit', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'ご来店当日の流れ', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'The visit takes about two hours in total', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '全体で2時間ほどです', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

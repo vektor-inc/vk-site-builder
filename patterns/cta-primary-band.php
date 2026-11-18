@@ -18,15 +18,15 @@
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|60"}},"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"center"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"textColor":"bg-primary","className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-bg-primary-color has-text-color is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Ready to get started?', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-bg-primary-color has-text-color is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'まずはお気軽にご相談ください', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'We usually reply within one business day.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( '通常、1営業日以内にご返信します。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<?php echo vksb_vk_button( __( 'Contact us', 'vk-site-builder' ), 'white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( 'お問い合わせ', 'vk-site-builder' ), 'white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:group -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|70","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

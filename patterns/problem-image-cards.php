@@ -12,18 +12,18 @@
 $vksb_problems = array(
 	array(
 		'image' => 'service-seo.jpg',
-		'title' => __( 'Hard to find', 'vk-site-builder' ),
-		'text'  => __( 'Customers cannot find your website when they search for your services.', 'vk-site-builder' ),
+		'title' => __( '見つけてもらえない', 'vk-site-builder' ),
+		'text'  => __( 'サービスを検索しても、ホームページが出てこない。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'pc-data.jpg',
-		'title' => __( 'No results', 'vk-site-builder' ),
-		'text'  => __( 'You do not know how many people visit the website or what they look at.', 'vk-site-builder' ),
+		'title' => __( '成果がわからない', 'vk-site-builder' ),
+		'text'  => __( '何人が訪れて、どのページが見られているのかがわからない。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( 'No one to ask', 'vk-site-builder' ),
-		'text'  => __( 'When something goes wrong, there is nobody to ask about the website.', 'vk-site-builder' ),
+		'title' => __( '相談できる人がいない', 'vk-site-builder' ),
+		'text'  => __( '困ったときに、ホームページのことを聞ける相手がいない。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -33,7 +33,7 @@ $vksb_problems = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Is your website working for you?', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'ホームページは、役に立っていますか？', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -50,7 +50,7 @@ $vksb_problems = array(
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php echo esc_html( sprintf( /* translators: %s: problem number such as 01. */ __( 'Problem %s', 'vk-site-builder' ), sprintf( '%02d', $vksb_index + 1 ) ) ); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php echo esc_html( sprintf( /* translators: %s: problem number such as 01. */ __( 'お悩み %s', 'vk-site-builder' ), sprintf( '%02d', $vksb_index + 1 ) ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"x-large","className":"is-vk-trim-both"} -->
@@ -80,22 +80,22 @@ $vksb_problems = array(
 
 <!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Solution', 'vk-site-builder' ); ?></p>
+<p class="has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( '解決策', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"textColor":"bg-primary","fontSize":"xx-large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-bg-primary-color has-text-color has-xx-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'We measure, improve, and support', 'vk-site-builder' ); ?></h3>
+<h3 class="wp-block-heading has-bg-primary-color has-text-color has-xx-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( '計測・改善・サポートまで', 'vk-site-builder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'We check how your website is used every month and keep improving it. You can always ask us when you are in trouble.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( '毎月ホームページの使われ方を確かめ、改善を続けます。困ったときは、いつでもご相談いただけます。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<?php echo vksb_vk_button( __( 'See our support plans', 'vk-site-builder' ), 'white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( 'サポートプランを見る', 'vk-site-builder' ), 'white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group -->

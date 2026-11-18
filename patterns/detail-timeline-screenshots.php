@@ -11,24 +11,24 @@
 
 $vksb_steps = array(
 	array(
-		'title' => __( 'Install and activate the plugin', 'vk-site-builder' ),
-		'text'  => __( 'In the admin screen, go to Plugins, then Add New. Search for the plugin, install it, and click Activate.', 'vk-site-builder' ),
+		'title' => __( 'プラグインをインストールして有効化する', 'vk-site-builder' ),
+		'text'  => __( '管理画面の「プラグイン」→「新規追加」でプラグインを検索し、インストールしてから「有効化」をクリックします。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Open the settings screen', 'vk-site-builder' ),
-		'text'  => __( 'A new menu appears in the admin menu after activation. Click it to open the settings screen.', 'vk-site-builder' ),
+		'title' => __( '設定画面を開く', 'vk-site-builder' ),
+		'text'  => __( '有効化すると、管理画面のメニューに新しい項目が追加されます。クリックすると設定画面が開きます。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Choose the settings', 'vk-site-builder' ),
-		'text'  => __( 'Turn on the features you want to use, and choose where and how to show them.', 'vk-site-builder' ),
+		'title' => __( '設定を選ぶ', 'vk-site-builder' ),
+		'text'  => __( '使いたい機能を有効にし、表示する場所と表示のしかたを選びます。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Save the settings', 'vk-site-builder' ),
-		'text'  => __( 'Click the Save Changes button at the bottom of the screen. A message appears when the settings are saved.', 'vk-site-builder' ),
+		'title' => __( '設定を保存する', 'vk-site-builder' ),
+		'text'  => __( '画面下の「変更を保存」ボタンをクリックします。保存されると、メッセージが表示されます。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Check your website', 'vk-site-builder' ),
-		'text'  => __( 'Open your website and check that the feature is shown as you set it.', 'vk-site-builder' ),
+		'title' => __( 'サイトで確認する', 'vk-site-builder' ),
+		'text'  => __( 'サイトを開いて、設定したとおりに表示されているか確認します。', 'vk-site-builder' ),
 	),
 );
 $vksb_last_index = count( $vksb_steps ) - 1;
@@ -39,11 +39,11 @@ $vksb_last_index = count( $vksb_steps ) - 1;
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'How to set up', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '設定の手順', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'Follow these steps in the admin screen', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '管理画面で、次の手順で設定します', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

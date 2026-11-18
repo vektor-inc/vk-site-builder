@@ -12,18 +12,18 @@
 $vksb_cards = array(
 	array(
 		'image' => 'about-office.jpg',
-		'title' => __( 'Company profile', 'vk-site-builder' ),
-		'text'  => __( 'Our message, address, history, and organization. The basic information about our company.', 'vk-site-builder' ),
+		'title' => __( '会社概要', 'vk-site-builder' ),
+		'text'  => __( '代表メッセージ・所在地・沿革・組織図など、会社の基本情報をご紹介します。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( 'Our team', 'vk-site-builder' ),
-		'text'  => __( 'Meet the staff who bring their own strengths to every project and turn your ideas into shape.', 'vk-site-builder' ),
+		'title' => __( 'スタッフ紹介', 'vk-site-builder' ),
+		'text'  => __( 'それぞれの得意分野を生かして、お客さまの思いを形にするスタッフをご紹介します。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'contact-image.jpg',
-		'title' => __( 'Careers', 'vk-site-builder' ),
-		'text'  => __( 'Would you like to grow with us and create new ideas together?', 'vk-site-builder' ),
+		'title' => __( '採用情報', 'vk-site-builder' ),
+		'text'  => __( '私たちと一緒に成長し、新しいものをつくっていきませんか？', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -35,15 +35,15 @@ $vksb_cards = array(
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|70","right":"var:preset|spacing|60","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60"}}},"backgroundColor":"bg-primary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-bg-primary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'About us', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '私たちについて', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'Get to know our company', 'vk-site-builder' ); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '会社のことを知ってください', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'We are a web design company that creates websites that move people. We listen closely to your goals and challenges, and we care about building things that solve the real problem.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( '私たちは、人の心を動かすホームページをつくる制作会社です。お客さまの目標や課題にじっくり耳を傾け、本当の問題を解決するものづくりを大切にしています。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"0"},"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
@@ -64,7 +64,7 @@ $vksb_cards = array(
 
 <?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<?php echo vksb_vk_button( __( 'Learn more', 'vk-site-builder' ), 'outline', 'right' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( '詳しく見る', 'vk-site-builder' ), 'outline', 'right' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:column -->
 <?php endforeach; ?>
 </div>

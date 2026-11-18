@@ -11,24 +11,24 @@
 
 $vksb_steps = array(
 	array(
-		'title' => __( 'Contact us', 'vk-site-builder' ),
-		'text'  => __( 'Send us a message from the contact form or give us a call.', 'vk-site-builder' ),
+		'title' => __( 'お問い合わせ', 'vk-site-builder' ),
+		'text'  => __( 'お問い合わせフォームまたはお電話でご連絡ください。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Hearing', 'vk-site-builder' ),
-		'text'  => __( 'Our staff will contact you to learn about your current situation and what you need.', 'vk-site-builder' ),
+		'title' => __( 'ヒアリング', 'vk-site-builder' ),
+		'text'  => __( '担当者からご連絡し、現在の状況やご要望をうかがいます。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Proposal and estimate', 'vk-site-builder' ),
-		'text'  => __( 'Based on the hearing, we propose the best plan and send you an estimate.', 'vk-site-builder' ),
+		'title' => __( 'ご提案・お見積り', 'vk-site-builder' ),
+		'text'  => __( 'ヒアリングの内容をもとに、最適なプランをご提案し、お見積りをお送りします。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Contract', 'vk-site-builder' ),
-		'text'  => __( 'We sign a contract, including a non-disclosure agreement if needed.', 'vk-site-builder' ),
+		'title' => __( 'ご契約', 'vk-site-builder' ),
+		'text'  => __( 'ご契約を結びます。必要に応じて、秘密保持契約も結びます。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Delivery', 'vk-site-builder' ),
-		'text'  => __( 'You check the result. We make adjustments if needed and then deliver.', 'vk-site-builder' ),
+		'title' => __( '納品', 'vk-site-builder' ),
+		'text'  => __( '仕上がりをご確認いただき、必要に応じて調整してから納品します。', 'vk-site-builder' ),
 	),
 );
 $vksb_last_index = count( $vksb_steps ) - 1;
@@ -39,11 +39,11 @@ $vksb_last_index = count( $vksb_steps ) - 1;
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Flow of your order', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'ご依頼の流れ', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'From your first contact to delivery', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'お問い合わせから納品まで', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

@@ -10,9 +10,9 @@
  */
 
 $vksb_items = array(
-	__( 'Looks good on smartphones, tablets, and computers', 'vk-site-builder' ),
-	__( 'Update news and pages yourself without special tools', 'vk-site-builder' ),
-	__( 'Support by email and phone after launch', 'vk-site-builder' ),
+	__( 'スマートフォン・タブレット・パソコンで見やすい', 'vk-site-builder' ),
+	__( '特別なソフトなしで、お知らせやページを自分で更新できる', 'vk-site-builder' ),
+	__( '公開後も、メール・電話でサポート', 'vk-site-builder' ),
 );
 ?>
 <!-- wp:group {"align":"full","style":{"border":{"bottom":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"padding":{"top":"0","right":"var:preset|spacing|50","bottom":"0","left":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
@@ -27,15 +27,15 @@ $vksb_items = array(
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Features', 'vk-site-builder' ); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( '特長', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'A website you can keep using for years', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( '長く使い続けられるホームページ', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'We build your website on WordPress, so you can grow it step by step as your business changes.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'WordPress で制作するので、事業の変化に合わせて、少しずつ育てていけます。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
@@ -56,7 +56,7 @@ $vksb_items = array(
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<?php echo vksb_vk_button( __( 'See the details', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( '詳しく見る', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 

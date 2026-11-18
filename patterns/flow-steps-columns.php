@@ -11,20 +11,20 @@
 
 $vksb_steps = array(
 	array(
-		'title' => __( 'Contact us', 'vk-site-builder' ),
-		'text'  => __( 'Send us a message from the form or give us a call.', 'vk-site-builder' ),
+		'title' => __( 'お問い合わせ', 'vk-site-builder' ),
+		'text'  => __( 'フォームまたはお電話でお問い合わせください。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Hearing', 'vk-site-builder' ),
-		'text'  => __( 'We ask about your goals, your budget, and your schedule.', 'vk-site-builder' ),
+		'title' => __( 'ヒアリング', 'vk-site-builder' ),
+		'text'  => __( '目標・ご予算・スケジュールをうかがいます。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Proposal', 'vk-site-builder' ),
-		'text'  => __( 'We send you a plan and an estimate that fit your needs.', 'vk-site-builder' ),
+		'title' => __( 'ご提案', 'vk-site-builder' ),
+		'text'  => __( 'ご要望に合ったプランとお見積りをお送りします。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Start', 'vk-site-builder' ),
-		'text'  => __( 'Once you agree with the plan, we start working together.', 'vk-site-builder' ),
+		'title' => __( '開始', 'vk-site-builder' ),
+		'text'  => __( 'プランにご同意いただけたら、作業を始めます。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -34,11 +34,11 @@ $vksb_steps = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Flow of service', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'サービスの流れ', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'Four simple steps from your first contact', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'お問い合わせから、4つのステップで進みます', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

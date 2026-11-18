@@ -11,16 +11,16 @@
 
 $vksb_faqs = array(
 	array(
-		'question' => __( 'Do you work with businesses outside your area?', 'vk-site-builder' ),
-		'answer'   => __( 'Yes. We hold meetings online, so we can work with you wherever you are.', 'vk-site-builder' ),
+		'question' => __( '遠方の会社でも依頼できますか？', 'vk-site-builder' ),
+		'answer'   => __( 'はい。打ち合わせはオンラインで行いますので、全国どこからでもご依頼いただけます。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( 'What should I prepare before the first meeting?', 'vk-site-builder' ),
-		'answer'   => __( 'Nothing special is needed. If you have a company brochure or photos, please bring them with you.', 'vk-site-builder' ),
+		'question' => __( '最初の打ち合わせまでに、準備するものはありますか？', 'vk-site-builder' ),
+		'answer'   => __( '特別な準備は必要ありません。会社案内や写真があれば、お持ちください。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( 'Do you offer support after launch?', 'vk-site-builder' ),
-		'answer'   => __( 'Yes. We offer a monthly plan that covers updates, backups, and questions about your website.', 'vk-site-builder' ),
+		'question' => __( '公開後のサポートはありますか？', 'vk-site-builder' ),
+		'answer'   => __( 'はい。更新作業・バックアップ・ホームページに関するご質問に対応する、月額のプランをご用意しています。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -30,7 +30,7 @@ $vksb_faqs = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Questions and answers', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'よくあるご質問', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

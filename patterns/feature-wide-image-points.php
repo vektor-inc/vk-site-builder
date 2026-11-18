@@ -12,18 +12,18 @@
 $vksb_points = array(
 	array(
 		'icon'  => 'fa-mobile-screen-button',
-		'title' => __( 'Easy to read anywhere', 'vk-site-builder' ),
-		'text'  => __( 'The layout changes to fit smartphones, tablets, and computers.', 'vk-site-builder' ),
+		'title' => __( 'どこでも見やすい', 'vk-site-builder' ),
+		'text'  => __( 'スマートフォン・タブレット・パソコンに合わせて、レイアウトが切り替わります。', 'vk-site-builder' ),
 	),
 	array(
 		'icon'  => 'fa-pen-to-square',
-		'title' => __( 'Easy to update', 'vk-site-builder' ),
-		'text'  => __( 'Add news and photos from your browser, just like writing an email.', 'vk-site-builder' ),
+		'title' => __( 'かんたんに更新できる', 'vk-site-builder' ),
+		'text'  => __( 'メールを書くような感覚で、ブラウザからお知らせや写真を追加できます。', 'vk-site-builder' ),
 	),
 	array(
 		'icon'  => 'fa-chart-line',
-		'title' => __( 'Easy to improve', 'vk-site-builder' ),
-		'text'  => __( 'See how many people visit each page and decide what to improve next.', 'vk-site-builder' ),
+		'title' => __( '改善しやすい', 'vk-site-builder' ),
+		'text'  => __( 'ページごとの訪問者数を見て、次に改善するところを決められます。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -32,15 +32,15 @@ $vksb_points = array(
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"760px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Product', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( '製品紹介', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'A website system built for small teams', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( '少人数のチームのためのホームページの仕組み', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="has-text-align-center is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'Everything you need to run your website is ready from the first day, without technical knowledge.', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'ホームページの運営に必要なものが、初日からそろっています。専門の知識はいりません。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

@@ -12,23 +12,23 @@
 $vksb_steps = array(
 	array(
 		'image' => 'contact-image.jpg',
-		'title' => __( 'Free consultation', 'vk-site-builder' ),
-		'text'  => __( 'Tell us about your business and what you want your website to do. We take the time to understand what makes you different.', 'vk-site-builder' ),
+		'title' => __( '無料相談', 'vk-site-builder' ),
+		'text'  => __( '事業のことや、ホームページで実現したいことをお聞かせください。御社ならではの強みを、時間をかけて理解します。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-seo.jpg',
-		'title' => __( 'Proposal and estimate', 'vk-site-builder' ),
-		'text'  => __( 'We suggest a page structure and a design direction, together with a clear estimate.', 'vk-site-builder' ),
+		'title' => __( 'ご提案・お見積り', 'vk-site-builder' ),
+		'text'  => __( 'ページの構成とデザインの方向を、わかりやすいお見積りと一緒にご提案します。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-web.jpg',
-		'title' => __( 'Design and build', 'vk-site-builder' ),
-		'text'  => __( 'We share drafts along the way, so you can check the progress and tell us what you think.', 'vk-site-builder' ),
+		'title' => __( 'デザイン・制作', 'vk-site-builder' ),
+		'text'  => __( '途中の案をお見せしますので、進み具合を確かめながらご意見をお聞かせください。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( 'Launch and support', 'vk-site-builder' ),
-		'text'  => __( 'After launch, we show you how to update the site yourself and help whenever you need it.', 'vk-site-builder' ),
+		'title' => __( '公開・サポート', 'vk-site-builder' ),
+		'text'  => __( '公開後は、ご自身で更新する方法をご説明し、必要なときにいつでもお手伝いします。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -38,11 +38,11 @@ $vksb_steps = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'How we work together', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '制作の流れ', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'About 2 to 3 months from the first meeting to launch', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '最初の打ち合わせから公開まで、2〜3か月ほどです', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

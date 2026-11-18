@@ -12,13 +12,13 @@
 $vksb_rows = array(
 	array(
 		'image' => 'service-web.jpg',
-		'title' => __( 'Websites that fit your business', 'vk-site-builder' ),
-		'text'  => __( 'We learn how your business works before we design anything. The pages, words, and photos are chosen so that your customers understand what makes you different.', 'vk-site-builder' ),
+		'title' => __( '事業に合ったホームページを', 'vk-site-builder' ),
+		'text'  => __( 'デザインの前に、まず事業の仕組みを理解します。ページ・言葉・写真は、御社ならではの強みがお客さまに伝わるように選びます。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( 'Support you can count on', 'vk-site-builder' ),
-		'text'  => __( 'After the website goes live, we answer your questions by email and phone, and help you update the pages as your business grows.', 'vk-site-builder' ),
+		'title' => __( '頼れるサポート', 'vk-site-builder' ),
+		'text'  => __( '公開後も、メールやお電話でご質問にお答えし、事業の成長に合わせたページの更新をお手伝いします。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -51,7 +51,7 @@ $vksb_rows = array(
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<?php echo vksb_vk_button( __( 'Learn more', 'vk-site-builder' ), 'outline' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( '詳しく見る', 'vk-site-builder' ), 'outline' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 <?php endforeach; ?>

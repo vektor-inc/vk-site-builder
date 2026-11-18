@@ -12,18 +12,18 @@
 $vksb_cards = array(
 	array(
 		'image' => 'service-web.jpg',
-		'title' => __( 'Website production', 'vk-site-builder' ),
-		'text'  => __( 'From planning to design and launch, we build a website that fits your business.', 'vk-site-builder' ),
+		'title' => __( 'ホームページ制作', 'vk-site-builder' ),
+		'text'  => __( '企画からデザイン、公開まで、事業に合ったホームページをつくります。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-seo.jpg',
-		'title' => __( 'Search improvement', 'vk-site-builder' ),
-		'text'  => __( 'We review your pages so that customers can find you when they search for your services.', 'vk-site-builder' ),
+		'title' => __( '検索対策', 'vk-site-builder' ),
+		'text'  => __( 'サービスを検索したお客さまに見つけてもらえるよう、ページを見直します。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( 'Update support', 'vk-site-builder' ),
-		'text'  => __( 'We help you update news and pages, and answer your questions by email and phone.', 'vk-site-builder' ),
+		'title' => __( '更新サポート', 'vk-site-builder' ),
+		'text'  => __( 'お知らせやページの更新をお手伝いし、メールやお電話でご質問にお答えします。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -31,11 +31,11 @@ $vksb_cards = array(
 <div class="wp-block-group alignfull has-bg-secondary-background-color has-background" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Our services', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'サービス', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'Everything your website needs, in one place', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'ホームページに必要なことを、まとめてお任せください', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
@@ -64,7 +64,7 @@ $vksb_cards = array(
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<?php echo vksb_vk_button( __( 'See all services', 'vk-site-builder' ), 'primary', 'center' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+<?php echo vksb_vk_button( __( 'サービス一覧を見る', 'vk-site-builder' ), 'primary', 'center' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:group -->

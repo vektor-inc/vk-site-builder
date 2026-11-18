@@ -10,22 +10,22 @@
  */
 
 $vksb_info = array(
-	__( 'Address', 'vk-site-builder' )      => __( '0-0-0 Sample Town, Sample City', 'vk-site-builder' ),
-	__( 'Opening hours', 'vk-site-builder' ) => __( '9:00 to 18:00', 'vk-site-builder' ),
-	__( 'Closed', 'vk-site-builder' )       => __( 'Saturdays, Sundays, and holidays', 'vk-site-builder' ),
-	__( 'Seats', 'vk-site-builder' )        => __( '20 seats', 'vk-site-builder' ),
-	__( 'Access', 'vk-site-builder' )       => __( '5 minutes on foot from Sample Station', 'vk-site-builder' ),
+	__( '所在地', 'vk-site-builder' )      => __( '〒000-0000 サンプル県サンプル市サンプル町0-0-0', 'vk-site-builder' ),
+	__( '営業時間', 'vk-site-builder' ) => __( '9:00〜18:00', 'vk-site-builder' ),
+	__( '定休日', 'vk-site-builder' )       => __( '土曜・日曜・祝日', 'vk-site-builder' ),
+	__( '席数', 'vk-site-builder' )        => __( '20席', 'vk-site-builder' ),
+	__( 'アクセス', 'vk-site-builder' )       => __( 'サンプル駅から徒歩5分', 'vk-site-builder' ),
 );
 ?>
 <!-- wp:group {"align":"full","style":{"border":{"bottom":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"padding":{"top":"0","right":"var:preset|spacing|50","bottom":"0","left":"var:preset|spacing|50"}}},"backgroundColor":"bg-secondary","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-bg-secondary-background-color has-background" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'About our office', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '事務所のご案内', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'Visitors are always welcome', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'ご来社をお待ちしています', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
@@ -39,21 +39,21 @@ $vksb_info = array(
 <!-- wp:columns {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-columns" style="margin-top:0;margin-bottom:0"><!-- wp:column {"width":"55%"} -->
 <div class="wp-block-column" style="flex-basis:55%"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"x-large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'A place to talk about your website', 'vk-site-builder' ); ?></h3>
+<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'ホームページのことを、じっくり話せる場所', 'vk-site-builder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'Our office is on the third floor of a building near the station. The meeting room has a large screen, so we can look at your website together while we talk.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( '事務所は駅近くのビルの3階にあります。打ち合わせ室には大きな画面があり、ホームページを一緒に見ながらお話しできます。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'If you would like to visit, please contact us in advance. We can also meet online if that is easier for you.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'ご来社の際は、事前にご連絡ください。オンラインでの打ち合わせにも対応しています。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"45%"} -->
 <div class="wp-block-column" style="flex-basis:45%"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"x-large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Information', 'vk-site-builder' ); ?></h3>
+<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '基本情報', 'vk-site-builder' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:table {"className":"is-style-vk-table-border-top-bottom","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"fontSize":"small"} -->

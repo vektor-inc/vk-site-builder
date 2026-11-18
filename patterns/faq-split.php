@@ -11,20 +11,20 @@
 
 $vksb_faqs = array(
 	array(
-		'question' => __( 'Is the first consultation free?', 'vk-site-builder' ),
-		'answer'   => __( 'Yes. The first consultation and the estimate are free of charge.', 'vk-site-builder' ),
+		'question' => __( '初回の相談は無料ですか？', 'vk-site-builder' ),
+		'answer'   => __( 'はい。初回のご相談とお見積りは無料です。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( 'Can you renew our current website?', 'vk-site-builder' ),
-		'answer'   => __( 'Yes. We check your current website and suggest what to keep and what to improve.', 'vk-site-builder' ),
+		'question' => __( '今のホームページのリニューアルもお願いできますか？', 'vk-site-builder' ),
+		'answer'   => __( 'はい。今のホームページを拝見し、残す部分と改善する部分をご提案します。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( 'Do you write the text and take photos?', 'vk-site-builder' ),
-		'answer'   => __( 'We can help with both. Writing and photography are available as options.', 'vk-site-builder' ),
+		'question' => __( '文章の作成や写真の撮影もお願いできますか？', 'vk-site-builder' ),
+		'answer'   => __( 'どちらも対応できます。原稿作成と写真撮影は、オプションでお受けしています。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( 'How do I pay?', 'vk-site-builder' ),
-		'answer'   => __( 'We send an invoice after delivery. Payment is by bank transfer.', 'vk-site-builder' ),
+		'question' => __( '支払い方法を教えてください。', 'vk-site-builder' ),
+		'answer'   => __( '納品後に請求書をお送りします。お支払いは銀行振込でお願いしています。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -40,18 +40,18 @@ $vksb_faqs = array(
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Common questions', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'よくあるご質問', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'If you cannot find the answer here, feel free to contact us.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'ここにないご質問は、お気軽にお問い合わせください。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<?php echo vksb_vk_button( __( 'Contact us', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( 'お問い合わせ', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"65%"} -->

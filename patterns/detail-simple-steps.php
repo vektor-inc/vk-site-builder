@@ -11,16 +11,16 @@
 
 $vksb_steps = array(
 	array(
-		'title' => __( 'Open the settings screen', 'vk-site-builder' ),
-		'text'  => __( 'In the admin screen, go to Settings and open the new tab.', 'vk-site-builder' ),
+		'title' => __( '設定画面を開く', 'vk-site-builder' ),
+		'text'  => __( '管理画面の「設定」から、新しく追加されたタブを開きます。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Turn on the feature', 'vk-site-builder' ),
-		'text'  => __( 'Check the box to turn on the feature, and choose where to show it.', 'vk-site-builder' ),
+		'title' => __( '機能を有効にする', 'vk-site-builder' ),
+		'text'  => __( 'チェックを入れて機能を有効にし、表示する場所を選びます。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Save and check the page', 'vk-site-builder' ),
-		'text'  => __( 'Save the settings and open your website to see the result.', 'vk-site-builder' ),
+		'title' => __( '保存してページを確認する', 'vk-site-builder' ),
+		'text'  => __( '設定を保存し、サイトを開いて表示を確認します。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -28,11 +28,11 @@ $vksb_steps = array(
 <div class="wp-block-group alignfull" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'How to use', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '使い方', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'You can start using the feature in three steps.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( '3つの手順で使い始められます。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->

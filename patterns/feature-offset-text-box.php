@@ -12,23 +12,23 @@
 $vksb_rows = array(
 	array(
 		'image' => 'pc-data.jpg',
-		'title' => __( 'Clear reports every month', 'vk-site-builder' ),
-		'text'  => __( 'We show you how many people visited your website and what they looked at, in a report that is easy to read even if you are new to the web.', 'vk-site-builder' ),
+		'title' => __( '毎月、わかりやすいレポートを', 'vk-site-builder' ),
+		'text'  => __( 'ホームページを何人が訪れ、どのページが見られたのかを、Web に詳しくない方でも読みやすいレポートでお伝えします。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-web.jpg',
-		'title' => __( 'Design that fits your brand', 'vk-site-builder' ),
-		'text'  => __( 'Colors, fonts, and photos are chosen to match your business, so that your customers recognize you at a glance.', 'vk-site-builder' ),
+		'title' => __( 'ブランドに合ったデザイン', 'vk-site-builder' ),
+		'text'  => __( '色・書体・写真を事業に合わせて選び、ひと目で御社とわかるホームページにします。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-seo.jpg',
-		'title' => __( 'Easy to find on search engines', 'vk-site-builder' ),
-		'text'  => __( 'We choose the words your customers search for and use them in the right places on each page.', 'vk-site-builder' ),
+		'title' => __( '検索で見つけてもらいやすく', 'vk-site-builder' ),
+		'text'  => __( 'お客さまが検索する言葉を選び、それぞれのページの適切な場所に使います。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( 'Help whenever you need it', 'vk-site-builder' ),
-		'text'  => __( 'Ask us by email or phone at any time. We explain the answer in plain words and help until the problem is solved.', 'vk-site-builder' ),
+		'title' => __( '困ったときは、いつでも', 'vk-site-builder' ),
+		'text'  => __( 'メールやお電話で、いつでもご相談ください。わかりやすい言葉でご説明し、解決するまでお手伝いします。', 'vk-site-builder' ),
 	),
 );
 ?>

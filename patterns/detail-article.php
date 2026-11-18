@@ -11,17 +11,17 @@
 
 $vksb_sections = array(
 	array(
-		'title' => __( 'We start by listening', 'vk-site-builder' ),
+		'title' => __( 'まずはお話をうかがいます', 'vk-site-builder' ),
 		'texts' => array(
-			__( 'Before we talk about design, we ask about your business, your customers, and what you want the website to do. We also look at your current website and the websites of your competitors.', 'vk-site-builder' ),
-			__( 'Based on what we learn, we decide which pages are needed and what each page should say.', 'vk-site-builder' ),
+			__( 'デザインの話をする前に、事業の内容やお客さまのこと、ホームページで実現したいことをうかがいます。今のホームページや、競合のホームページも拝見します。', 'vk-site-builder' ),
+			__( 'うかがった内容をもとに、必要なページと、それぞれのページで伝えることを決めていきます。', 'vk-site-builder' ),
 		),
 	),
 	array(
-		'title' => __( 'We build it together with you', 'vk-site-builder' ),
+		'title' => __( 'お客さまと一緒につくります', 'vk-site-builder' ),
 		'texts' => array(
-			__( 'We share drafts of the design and the text at each step. You can check the progress on a test website and tell us what you think.', 'vk-site-builder' ),
-			__( 'Photos and texts can be prepared by you or by us. We will suggest the best way for your schedule and budget.', 'vk-site-builder' ),
+			__( 'デザインと文章の案は、段階ごとにお見せします。確認用のサイトで進み具合を見ながら、ご意見をお聞かせください。', 'vk-site-builder' ),
+			__( '写真や文章は、お客さまにご用意いただくことも、こちらで用意することもできます。スケジュールとご予算に合わせて、良い方法をご提案します。', 'vk-site-builder' ),
 		),
 	),
 );
@@ -31,15 +31,15 @@ $vksb_sections = array(
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"760px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Website renewal', 'vk-site-builder' ); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'ホームページのリニューアル', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'How we renew your website', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'リニューアルの進め方', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"fontSize":"large","className":"is-vk-trim-both"} -->
-<p class="has-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'A renewal is more than a new look. We rethink what your website should do for your business, and build it so that you can keep using it for years.', 'vk-site-builder' ); ?></p>
+<p class="has-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'リニューアルは、見た目を新しくするだけではありません。ホームページが事業のために果たす役割から見直し、長く使い続けられる形につくり直します。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

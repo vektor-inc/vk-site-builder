@@ -12,23 +12,23 @@
 $vksb_rooms = array(
 	array(
 		'image' => 'about-office.jpg',
-		'title' => __( 'Workspace', 'vk-site-builder' ),
-		'text'  => __( 'A bright room with large windows where our team works every day.', 'vk-site-builder' ),
+		'title' => __( '執務スペース', 'vk-site-builder' ),
+		'text'  => __( '大きな窓のある明るい部屋で、スタッフが毎日仕事をしています。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'contact-image.jpg',
-		'title' => __( 'Consultation desk', 'vk-site-builder' ),
-		'text'  => __( 'A quiet space where we listen to your ideas and questions.', 'vk-site-builder' ),
+		'title' => __( '相談カウンター', 'vk-site-builder' ),
+		'text'  => __( 'ご要望やご質問を、落ち着いてうかがえるスペースです。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( 'Support room', 'vk-site-builder' ),
-		'text'  => __( 'Our support staff answer calls and emails from here.', 'vk-site-builder' ),
+		'title' => __( 'サポートルーム', 'vk-site-builder' ),
+		'text'  => __( 'サポート担当が、ここからお電話やメールに対応しています。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'pc-data.jpg',
-		'title' => __( 'Meeting room', 'vk-site-builder' ),
-		'text'  => __( 'We review proposals and progress together on a large screen.', 'vk-site-builder' ),
+		'title' => __( '会議室', 'vk-site-builder' ),
+		'text'  => __( '大きな画面で、ご提案や進み具合を一緒に確認します。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -36,11 +36,11 @@ $vksb_rooms = array(
 <div class="wp-block-group alignfull" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Our facilities', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '施設のご紹介', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'Feel free to visit us and see the rooms for yourself', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'お気軽にお越しいただき、実際にご覧ください', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>

@@ -10,12 +10,12 @@
  */
 
 $vksb_specs = array(
-	__( 'Plan', 'vk-site-builder' )             => __( 'Standard plan', 'vk-site-builder' ),
-	__( 'Number of pages', 'vk-site-builder' )  => __( 'Up to 10 pages', 'vk-site-builder' ),
-	__( 'Production time', 'vk-site-builder' )  => __( 'About 2 months', 'vk-site-builder' ),
-	__( 'Supported devices', 'vk-site-builder' ) => __( 'Smartphones, tablets, and computers', 'vk-site-builder' ),
-	__( 'Support', 'vk-site-builder' )          => __( 'Email and phone, for 1 year after launch', 'vk-site-builder' ),
-	__( 'Price', 'vk-site-builder' )            => __( 'From 000,000 yen (tax included)', 'vk-site-builder' ),
+	__( 'プラン', 'vk-site-builder' )             => __( 'スタンダードプラン', 'vk-site-builder' ),
+	__( 'ページ数', 'vk-site-builder' )  => __( '10ページまで', 'vk-site-builder' ),
+	__( '制作期間', 'vk-site-builder' )  => __( '約2か月', 'vk-site-builder' ),
+	__( '対応端末', 'vk-site-builder' ) => __( 'スマートフォン・タブレット・パソコン', 'vk-site-builder' ),
+	__( 'サポート', 'vk-site-builder' )          => __( '公開後1年間、メール・電話で対応', 'vk-site-builder' ),
+	__( '料金', 'vk-site-builder' )            => __( '000,000円〜（税込）', 'vk-site-builder' ),
 );
 ?>
 <!-- wp:group {"align":"full","style":{"border":{"bottom":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"padding":{"top":"0","right":"var:preset|spacing|50","bottom":"0","left":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
@@ -30,15 +30,15 @@ $vksb_specs = array(
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Specifications', 'vk-site-builder' ); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( '仕様', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Standard website plan', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'ホームページ制作 スタンダードプラン', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'Our most popular plan for small businesses. It includes everything you need to start, from planning to support after launch.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( '小規模な会社に、いちばん選ばれているプランです。企画から公開後のサポートまで、始めるのに必要なものがそろっています。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:table {"className":"is-style-vk-table-border-top-bottom","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"fontSize":"small"} -->

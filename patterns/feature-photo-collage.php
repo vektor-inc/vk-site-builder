@@ -12,24 +12,24 @@
 $vksb_rows = array(
 	array(
 		'images' => array( 'about-office.jpg', 'contact-image.jpg', 'about-office.jpg' ),
-		'title'  => __( 'New websites', 'vk-site-builder' ),
-		'sub'    => __( 'A website made only for your business', 'vk-site-builder' ),
-		'text'   => __( 'We build a new website from the beginning, based on what you want to tell your customers. We take care of everything from the structure to the photos and words.', 'vk-site-builder' ),
-		'button' => __( 'See our work', 'vk-site-builder' ),
+		'title'  => __( '新規制作', 'vk-site-builder' ),
+		'sub'    => __( '御社のためだけのホームページを', 'vk-site-builder' ),
+		'text'   => __( 'お客さまに伝えたいことをもとに、ホームページを一からつくります。構成から写真・言葉まで、まとめてお任せください。', 'vk-site-builder' ),
+		'button' => __( '制作実績を見る', 'vk-site-builder' ),
 	),
 	array(
 		'images' => array( 'pc-data.jpg', 'service-seo.jpg', 'service-web.jpg' ),
-		'title'  => __( 'Redesign', 'vk-site-builder' ),
-		'sub'    => __( 'Make your current website work harder', 'vk-site-builder' ),
-		'text'   => __( 'We check what is working and what is not on your current website, and improve the design and pages step by step, from small fixes to a full redesign.', 'vk-site-builder' ),
-		'button' => __( 'See redesign examples', 'vk-site-builder' ),
+		'title'  => __( 'リニューアル', 'vk-site-builder' ),
+		'sub'    => __( '今のホームページを、もっと働くサイトに', 'vk-site-builder' ),
+		'text'   => __( '今のホームページの良いところと課題を確かめ、小さな手直しから全面リニューアルまで、デザインやページを段階的に改善します。', 'vk-site-builder' ),
+		'button' => __( 'リニューアル事例を見る', 'vk-site-builder' ),
 	),
 	array(
 		'images' => array( 'service-support.jpg', 'pc-data.jpg', 'service-support.jpg' ),
-		'title'  => __( 'Ongoing support', 'vk-site-builder' ),
-		'sub'    => __( 'Keep your website fresh and safe', 'vk-site-builder' ),
-		'text'   => __( 'After launch, we update the pages for you, keep the system safe, and suggest improvements based on how visitors use your website.', 'vk-site-builder' ),
-		'button' => __( 'See support plans', 'vk-site-builder' ),
+		'title'  => __( '運用サポート', 'vk-site-builder' ),
+		'sub'    => __( 'ホームページを、新しく安全な状態に', 'vk-site-builder' ),
+		'text'   => __( '公開後は、ページの更新代行やシステムの保守を行い、訪問者の使われ方をもとに改善をご提案します。', 'vk-site-builder' ),
+		'button' => __( 'サポートプランを見る', 'vk-site-builder' ),
 	),
 );
 ?>

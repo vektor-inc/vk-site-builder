@@ -12,18 +12,18 @@
 $vksb_cards = array(
 	array(
 		'image' => 'service-web.jpg',
-		'title' => __( 'Website design', 'vk-site-builder' ),
-		'text'  => __( 'We plan and design new websites and redesign existing ones, from the structure of the pages to the words and photos.', 'vk-site-builder' ),
+		'title' => __( 'ホームページ制作', 'vk-site-builder' ),
+		'text'  => __( '新しいホームページの企画・デザインから、今のホームページのリニューアルまで、ページの構成から言葉や写真まで手がけます。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-seo.jpg',
-		'title' => __( 'Search and web marketing', 'vk-site-builder' ),
-		'text'  => __( 'We help more people find your website through search engines, ads, and social media, and we check the results every month.', 'vk-site-builder' ),
+		'title' => __( '検索対策・Web マーケティング', 'vk-site-builder' ),
+		'text'  => __( '検索エンジン・広告・SNS を通じて、より多くの人にホームページを見つけてもらえるようにし、毎月その成果を確認します。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( 'Maintenance and support', 'vk-site-builder' ),
-		'text'  => __( 'We keep your website safe and up to date, and answer your questions by email and phone.', 'vk-site-builder' ),
+		'title' => __( '保守・サポート', 'vk-site-builder' ),
+		'text'  => __( 'ホームページを安全で新しい状態に保ち、メールやお電話でご質問にお答えします。', 'vk-site-builder' ),
 	),
 );?>
 <!-- wp:group {"align":"full","style":{"border":{"bottom":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"default"}} -->
@@ -34,11 +34,11 @@ $vksb_cards = array(
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|70","right":"var:preset|spacing|60","bottom":"var:preset|spacing|70","left":"var:preset|spacing|60"}}},"backgroundColor":"bg-primary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-bg-primary-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--70);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--70);padding-left:var(--wp--preset--spacing--60)"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Our services', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'サービス', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'What we can do for you', 'vk-site-builder' ); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '私たちにできること', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|70","bottom":"0"},"blockGap":"var:preset|spacing|70"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
@@ -62,7 +62,7 @@ $vksb_cards = array(
 
 <?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<?php echo vksb_vk_button( __( 'Learn more', 'vk-site-builder' ), 'outline', 'right' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( '詳しく見る', 'vk-site-builder' ), 'outline', 'right' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 <?php endforeach; ?>

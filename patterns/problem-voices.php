@@ -11,16 +11,16 @@
 
 $vksb_voices = array(
 	array(
-		'quote' => __( 'We want more inquiries, but we do not know what to change.', 'vk-site-builder' ),
-		'who'   => __( 'Owner of a local shop', 'vk-site-builder' ),
+		'quote' => __( '問い合わせを増やしたいけれど、何を変えればいいかわからない。', 'vk-site-builder' ),
+		'who'   => __( '地域の商店 店主', 'vk-site-builder' ),
 	),
 	array(
-		'quote' => __( 'Updating the website every week takes too much of our time.', 'vk-site-builder' ),
-		'who'   => __( 'Sales manager', 'vk-site-builder' ),
+		'quote' => __( '毎週のホームページの更新に、時間を取られすぎている。', 'vk-site-builder' ),
+		'who'   => __( '営業部 部長', 'vk-site-builder' ),
 	),
 	array(
-		'quote' => __( 'Our website looks old next to our competitors.', 'vk-site-builder' ),
-		'who'   => __( 'Clinic director', 'vk-site-builder' ),
+		'quote' => __( '競合と比べて、うちのホームページは古く見える。', 'vk-site-builder' ),
+		'who'   => __( 'クリニック 院長', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -30,7 +30,7 @@ $vksb_voices = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Have you ever thought this?', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'こんなふうに感じたことはありませんか？', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -70,22 +70,22 @@ $vksb_voices = array(
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Leave it to us', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'お任せください', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'We solve these worries together with you', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'そのお悩み、一緒に解決します', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="has-text-align-center is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'From planning to updates after launch, one team supports your website. Tell us what bothers you first.', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( '企画から公開後の更新まで、ひとつのチームがホームページを支えます。まずは、困っていることをお聞かせください。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<?php echo vksb_vk_button( __( 'Talk to us', 'vk-site-builder' ), 'primary', 'center' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+<?php echo vksb_vk_button( __( '相談してみる', 'vk-site-builder' ), 'primary', 'center' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:spacer {"height":"var:preset|spacing|70","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>

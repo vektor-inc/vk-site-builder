@@ -11,16 +11,16 @@
 
 $vksb_pairs = array(
 	array(
-		'problem'  => __( 'Our website does not look good on smartphones.', 'vk-site-builder' ),
-		'solution' => __( 'We rebuild it with a design that fits every screen, from phones to large monitors.', 'vk-site-builder' ),
+		'problem'  => __( 'ホームページが、スマートフォンで見にくい。', 'vk-site-builder' ),
+		'solution' => __( 'スマートフォンから大きなモニターまで、どの画面にも合うデザインでつくり直します。', 'vk-site-builder' ),
 	),
 	array(
-		'problem'  => __( 'We always have to ask someone to update the website.', 'vk-site-builder' ),
-		'solution' => __( 'We build it with WordPress and teach you how to update news and pages yourself.', 'vk-site-builder' ),
+		'problem'  => __( 'ホームページの更新を、いつも人に頼まないといけない。', 'vk-site-builder' ),
+		'solution' => __( 'WordPress で制作し、お知らせやページをご自身で更新する方法をお教えします。', 'vk-site-builder' ),
 	),
 	array(
-		'problem'  => __( 'We get few inquiries from the website.', 'vk-site-builder' ),
-		'solution' => __( 'We rethink the page structure and the contact form so that visitors can reach you easily.', 'vk-site-builder' ),
+		'problem'  => __( 'ホームページからの問い合わせが少ない。', 'vk-site-builder' ),
+		'solution' => __( 'ページの構成とお問い合わせフォームを見直し、訪れた人が連絡しやすくします。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -30,7 +30,7 @@ $vksb_pairs = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'How we solve your problems', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'お悩みを、こう解決します', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -46,7 +46,7 @@ $vksb_pairs = array(
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><?php echo vksb_vk_icon_only( 'fa-circle-exclamation', 18, 'text-normal' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Problem', 'vk-site-builder' ); ?></p>
+<p class="has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'お悩み', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -60,7 +60,7 @@ $vksb_pairs = array(
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0"><?php echo vksb_vk_icon_only( 'fa-lightbulb', 18 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Solution', 'vk-site-builder' ); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( '解決策', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

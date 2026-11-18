@@ -13,32 +13,32 @@ $vksb_steps = array(
 	array(
 		'icon_style' => 'fa-solid',
 		'icon_name'  => 'fa-mobile-screen-button',
-		'title'      => __( 'Contact us', 'vk-site-builder' ),
-		'text'       => __( 'Start by contacting us from the form. It is fine if your request is still vague. We will guide you based on your situation.', 'vk-site-builder' ),
+		'title'      => __( 'お問い合わせ', 'vk-site-builder' ),
+		'text'       => __( 'まずはフォームからお問い合わせください。ご要望がまだはっきりしていなくても大丈夫です。状況に合わせてご案内します。', 'vk-site-builder' ),
 	),
 	array(
 		'icon_style' => 'fa-regular',
 		'icon_name'  => 'fa-comments',
-		'title'      => __( 'Hearing', 'vk-site-builder' ),
-		'text'       => __( 'Our staff will call you back and ask about your current situation, issues, and wishes. Together we look for the best direction.', 'vk-site-builder' ),
+		'title'      => __( 'ヒアリング', 'vk-site-builder' ),
+		'text'       => __( '担当者から折り返しご連絡し、現在の状況や課題、ご要望をうかがいます。一緒に、いちばん良い方向を探します。', 'vk-site-builder' ),
 	),
 	array(
 		'icon_style' => 'fa-regular',
 		'icon_name'  => 'fa-file-lines',
-		'title'      => __( 'Proposal and estimate', 'vk-site-builder' ),
-		'text'       => __( 'Based on the hearing, we propose the best plan and send you an estimate.', 'vk-site-builder' ),
+		'title'      => __( 'ご提案・お見積り', 'vk-site-builder' ),
+		'text'       => __( 'ヒアリングの内容をもとに、最適なプランをご提案し、お見積りをお送りします。', 'vk-site-builder' ),
 	),
 	array(
 		'icon_style' => 'fa-solid',
 		'icon_name'  => 'fa-pen-nib',
-		'title'      => __( 'Contract', 'vk-site-builder' ),
-		'text'       => __( 'Once you are happy with the proposal, we sign a contract, including a non-disclosure agreement if needed.', 'vk-site-builder' ),
+		'title'      => __( 'ご契約', 'vk-site-builder' ),
+		'text'       => __( 'ご提案にご納得いただけたら、ご契約となります。必要に応じて、秘密保持契約も結びます。', 'vk-site-builder' ),
 	),
 	array(
 		'icon_style' => 'fa-solid',
 		'icon_name'  => 'fa-laptop-code',
-		'title'      => __( 'Delivery of the service', 'vk-site-builder' ),
-		'text'       => __( 'We carry out the work as agreed and keep you updated on the progress along the way.', 'vk-site-builder' ),
+		'title'      => __( 'サービスの提供', 'vk-site-builder' ),
+		'text'       => __( 'お約束した内容で作業を進め、途中の進み具合もこまめにご報告します。', 'vk-site-builder' ),
 	),
 );
 $vksb_last_index = count( $vksb_steps ) - 1;
@@ -49,11 +49,11 @@ $vksb_last_index = count( $vksb_steps ) - 1;
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Flow of service', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'サービスの流れ', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'From your first contact to the start of the service', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'お問い合わせから、サービス開始まで', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

@@ -12,18 +12,18 @@
 $vksb_points = array(
 	array(
 		'image' => 'about-office.jpg',
-		'title' => __( 'A team that knows your business', 'vk-site-builder' ),
-		'text'  => __( 'Before we design anything, we visit you and learn how your business works. The website starts from what makes you different.', 'vk-site-builder' ),
+		'title' => __( '事業を理解したチームがつくります', 'vk-site-builder' ),
+		'text'  => __( 'デザインの前に、まずお客さまのもとへうかがい、事業の流れを知るところから始めます。ホームページは、御社ならではの強みから組み立てます。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-web.jpg',
-		'title' => __( 'Design that fits every screen', 'vk-site-builder' ),
-		'text'  => __( 'Every page is checked on smartphones, tablets, and computers, so your customers can read it anywhere.', 'vk-site-builder' ),
+		'title' => __( 'どの画面でも見やすいデザイン', 'vk-site-builder' ),
+		'text'  => __( 'すべてのページをスマートフォン・タブレット・パソコンで確認するので、どこからでも読みやすく表示されます。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( 'Support after launch', 'vk-site-builder' ),
-		'text'  => __( 'After the website goes live, we answer your questions and help you keep it up to date.', 'vk-site-builder' ),
+		'title' => __( '公開後もサポートします', 'vk-site-builder' ),
+		'text'  => __( '公開後も、ご質問にお答えしながら、ホームページを新しい状態に保つお手伝いをします。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -31,11 +31,11 @@ $vksb_points = array(
 <div class="wp-block-group alignfull" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Why customers choose us', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '選ばれる理由', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'Three things we care about', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '私たちが大切にしている3つのこと', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
@@ -58,7 +58,7 @@ $vksb_points = array(
 
 <!-- wp:column {"verticalAlignment":"center","width":"45%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:45%"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php echo esc_html( sprintf( /* translators: %s: point number such as 01. */ __( 'Point %s', 'vk-site-builder' ), sprintf( '%02d', $vksb_index + 1 ) ) ); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php echo esc_html( sprintf( /* translators: %s: point number such as 01. */ __( 'ポイント %s', 'vk-site-builder' ), sprintf( '%02d', $vksb_index + 1 ) ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"xx-large","className":"is-vk-trim-both"} -->

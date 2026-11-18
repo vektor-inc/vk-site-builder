@@ -10,28 +10,28 @@
  */
 
 $vksb_before = array(
-	__( 'Only one person knows how to update the website', 'vk-site-builder' ),
-	__( 'The website is hard to read on smartphones', 'vk-site-builder' ),
-	__( 'Inquiries come only by phone', 'vk-site-builder' ),
+	__( 'ホームページを更新できるのが一人だけ', 'vk-site-builder' ),
+	__( 'スマートフォンで見ると読みにくい', 'vk-site-builder' ),
+	__( '問い合わせが電話でしか来ない', 'vk-site-builder' ),
 );
 
 $vksb_after = array(
-	__( 'Anyone on the team can update news and photos', 'vk-site-builder' ),
-	__( 'Every page is easy to read on any device', 'vk-site-builder' ),
-	__( 'Inquiries also come through the form, day and night', 'vk-site-builder' ),
+	__( '誰でもお知らせや写真を更新できる', 'vk-site-builder' ),
+	__( 'どの端末でも、すべてのページが読みやすい', 'vk-site-builder' ),
+	__( 'フォームからも、昼夜を問わず問い合わせが届く', 'vk-site-builder' ),
 );
 
 $vksb_boxes = array(
 	array(
-		'label' => __( 'Before', 'vk-site-builder' ),
-		'title' => __( 'Hard to keep up', 'vk-site-builder' ),
+		'label' => __( '変更前', 'vk-site-builder' ),
+		'title' => __( '手が回らない', 'vk-site-builder' ),
 		'icon'  => vksb_vk_icon( 'fa-xmark', 12, 6, 'text-normal' ),
 		'items' => $vksb_before,
 		'dark'  => false,
 	),
 	array(
-		'label' => __( 'After', 'vk-site-builder' ),
-		'title' => __( 'Easy to keep growing', 'vk-site-builder' ),
+		'label' => __( '変更後', 'vk-site-builder' ),
+		'title' => __( '無理なく育てていける', 'vk-site-builder' ),
 		'icon'  => vksb_vk_icon( 'fa-check', 12, 6, 'bg-primary', 'primary' ),
 		'items' => $vksb_after,
 		'dark'  => true,
@@ -44,7 +44,7 @@ $vksb_boxes = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'How your website changes', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'ホームページはこう変わります', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -96,7 +96,7 @@ $vksb_boxes = array(
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<?php echo vksb_vk_button( __( 'See how we can help', 'vk-site-builder' ), 'primary', 'center' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+<?php echo vksb_vk_button( __( 'サポート内容を見る', 'vk-site-builder' ), 'primary', 'center' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:spacer {"height":"var:preset|spacing|70","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>

@@ -10,17 +10,17 @@
  */
 
 $vksb_worries = array(
-	__( 'The website does not bring in new customers', 'vk-site-builder' ),
-	__( 'The design looks old and does not build trust', 'vk-site-builder' ),
-	__( 'The pages are hard to read on smartphones', 'vk-site-builder' ),
-	__( 'Updating the website takes too much time', 'vk-site-builder' ),
+	__( 'ホームページから新しいお客さまが来ない', 'vk-site-builder' ),
+	__( 'デザインが古く、信頼感が伝わらない', 'vk-site-builder' ),
+	__( 'スマートフォンで見ると読みにくい', 'vk-site-builder' ),
+	__( 'ホームページの更新に時間がかかりすぎる', 'vk-site-builder' ),
 );
 ?>
 <!-- wp:group {"align":"full","style":{"color":{"gradient":"linear-gradient(125deg,var(--wp--preset--color--bg-primary) 44%,var(--wp--preset--color--bg-secondary) 44%)"},"border":{"bottom":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"padding":{"top":"0","right":"var:preset|spacing|50","bottom":"0","left":"var:preset|spacing|50"}}},"layout":{"type":"constrained","contentSize":"760px"}} -->
 <div class="wp-block-group alignfull has-background" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;background:linear-gradient(125deg,var(--wp--preset--color--bg-primary) 44%,var(--wp--preset--color--bg-secondary) 44%);padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Do you have any of these worries?', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'こんなお悩みはありませんか？', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>

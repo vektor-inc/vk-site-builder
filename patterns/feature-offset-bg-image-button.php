@@ -12,13 +12,13 @@
 $vksb_rows = array(
 	array(
 		'image' => 'about-office.jpg',
-		'title' => __( 'Built to solve real problems', 'vk-site-builder' ),
-		'text'  => __( 'Many businesses know a website matters, but are too busy to start, or find it hard to keep it up to date. We create tools that make running a website simple for everyone.', 'vk-site-builder' ),
+		'title' => __( '本当の課題を解決するために', 'vk-site-builder' ),
+		'text'  => __( 'ホームページが大切だとわかっていても、忙しくて手が付けられない、更新が続かないという会社は少なくありません。私たちは、誰でもかんたんにホームページを運営できる仕組みをつくっています。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'pc-data.jpg',
-		'title' => __( 'Made with your team in mind', 'vk-site-builder' ),
-		'text'  => __( 'You do not need special knowledge to update the pages. Our staff show you how to use it, and stay with you after the website goes live.', 'vk-site-builder' ),
+		'title' => __( '使う人のことを考えてつくりました', 'vk-site-builder' ),
+		'text'  => __( 'ページの更新に、専門の知識はいりません。使い方はスタッフがご説明し、公開後もサポートを続けます。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -40,7 +40,7 @@ $vksb_rows = array(
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<?php echo vksb_vk_button( __( 'Learn more', 'vk-site-builder' ), 'primary' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( '詳しく見る', 'vk-site-builder' ), 'primary' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->
@@ -70,7 +70,7 @@ $vksb_rows = array(
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<?php echo vksb_vk_button( __( 'Learn more', 'vk-site-builder' ), 'primary' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( '詳しく見る', 'vk-site-builder' ), 'primary' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center"} -->

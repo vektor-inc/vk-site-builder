@@ -11,20 +11,20 @@
 
 $vksb_steps = array(
 	array(
-		'title' => __( 'Apply from the form', 'vk-site-builder' ),
-		'text'  => __( 'Fill in the application form. It takes about five minutes.', 'vk-site-builder' ),
+		'title' => __( 'フォームから応募', 'vk-site-builder' ),
+		'text'  => __( '応募フォームに入力してください。5分ほどで完了します。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Document screening', 'vk-site-builder' ),
-		'text'  => __( 'We review your application and contact you within a week.', 'vk-site-builder' ),
+		'title' => __( '書類選考', 'vk-site-builder' ),
+		'text'  => __( '応募書類を拝見し、1週間以内にご連絡します。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Interview', 'vk-site-builder' ),
-		'text'  => __( 'We meet in person or online. Feel free to ask us anything about the job.', 'vk-site-builder' ),
+		'title' => __( '面接', 'vk-site-builder' ),
+		'text'  => __( '対面またはオンラインで面接します。仕事について、何でも気軽にご質問ください。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Offer', 'vk-site-builder' ),
-		'text'  => __( 'We tell you the result and discuss your start date.', 'vk-site-builder' ),
+		'title' => __( '内定', 'vk-site-builder' ),
+		'text'  => __( '結果をお伝えし、入社日をご相談します。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -34,11 +34,11 @@ $vksb_steps = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Selection process', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '選考の流れ', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'It takes about two weeks from application to offer', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '応募から内定まで、2週間ほどです', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

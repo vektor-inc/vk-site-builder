@@ -11,16 +11,16 @@
 
 $vksb_steps = array(
 	array(
-		'title' => __( 'Create an account', 'vk-site-builder' ),
-		'text'  => __( 'Sign up with your email address. No credit card is needed.', 'vk-site-builder' ),
+		'title' => __( 'アカウントを作成', 'vk-site-builder' ),
+		'text'  => __( 'メールアドレスで登録します。クレジットカードは不要です。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Set up your profile', 'vk-site-builder' ),
-		'text'  => __( 'Add your company name and logo so your team can find you.', 'vk-site-builder' ),
+		'title' => __( 'プロフィールを設定', 'vk-site-builder' ),
+		'text'  => __( 'チームのメンバーがわかるように、会社名とロゴを登録します。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'Invite your team', 'vk-site-builder' ),
-		'text'  => __( 'Send invitations to your colleagues and start working together.', 'vk-site-builder' ),
+		'title' => __( 'メンバーを招待', 'vk-site-builder' ),
+		'text'  => __( '同僚に招待を送り、一緒に使い始めましょう。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -40,22 +40,22 @@ $vksb_steps = array(
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Getting started', 'vk-site-builder' ); ?></p>
+<p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'はじめ方', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Start in three steps', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( '3つの手順で始められます', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'You can be ready in about ten minutes. If you get stuck, our support team is happy to help.', 'vk-site-builder' ); ?></p>
+<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( '10分ほどで準備できます。わからないことがあれば、サポートチームがお手伝いします。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<?php echo vksb_vk_button( __( 'Get started', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( 'はじめる', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"60%"} -->

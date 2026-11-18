@@ -16,15 +16,15 @@
 <!-- /wp:spacer -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"fontStyle":"normal","fontWeight":"700","letterSpacing":"0.15em","textTransform":"uppercase"}},"textColor":"bg-primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-bg-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'Web production for small businesses', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-bg-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( '中小企業のためのホームページ制作', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"textColor":"bg-primary","fontSize":"xxx-large","className":"is-vk-trim-both"} -->
-<h1 class="wp-block-heading has-text-align-center has-bg-primary-color has-text-color has-xxx-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Turn your strengths into a website that brings customers', 'vk-site-builder' ); ?></h1>
+<h1 class="wp-block-heading has-text-align-center has-bg-primary-color has-text-color has-xxx-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( '御社の強みを、お客さまを呼ぶホームページに', 'vk-site-builder' ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"fontSize":"medium","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-medium-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'We listen to what makes your business special and shape it into pages that visitors understand at a glance.', 'vk-site-builder' ); ?></p>
+<p class="has-text-align-center has-medium-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( '御社ならではの魅力をうかがい、訪れた人にひと目で伝わるページに仕上げます。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -32,9 +32,9 @@
 <!-- /wp:spacer -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","justifyContent":"center"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><?php echo vksb_vk_button( __( 'Contact us', 'vk-site-builder' ), 'white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><?php echo vksb_vk_button( __( 'お問い合わせ', 'vk-site-builder' ), 'white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<?php echo vksb_vk_button( __( 'See our work', 'vk-site-builder' ), 'outline-white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( '制作実績を見る', 'vk-site-builder' ), 'outline-white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:group -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|70","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

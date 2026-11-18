@@ -11,20 +11,20 @@
 
 $vksb_faqs = array(
 	array(
-		'question' => __( 'How much does a website cost?', 'vk-site-builder' ),
-		'answer'   => __( 'It depends on the number of pages and the features you need. We send you a free estimate after a short hearing.', 'vk-site-builder' ),
+		'question' => __( 'ホームページの制作費用はどのくらいですか？', 'vk-site-builder' ),
+		'answer'   => __( 'ページ数や必要な機能によって変わります。簡単なヒアリングのあと、無料でお見積りをお送りします。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( 'How long does it take to launch?', 'vk-site-builder' ),
-		'answer'   => __( 'It usually takes two to three months from the first meeting to launch.', 'vk-site-builder' ),
+		'question' => __( '公開までにどのくらいかかりますか？', 'vk-site-builder' ),
+		'answer'   => __( '最初の打ち合わせから公開まで、通常2〜3か月ほどです。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( 'Can I update the website myself?', 'vk-site-builder' ),
-		'answer'   => __( 'Yes. We build the site with WordPress and show you how to update news and pages after launch.', 'vk-site-builder' ),
+		'question' => __( '公開後、自分で更新できますか？', 'vk-site-builder' ),
+		'answer'   => __( 'はい。WordPress で制作し、公開後にお知らせやページの更新方法をご説明します。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( 'Can you also take care of the domain and server?', 'vk-site-builder' ),
-		'answer'   => __( 'Yes. We can help you choose and set them up, or we can use the ones you already have.', 'vk-site-builder' ),
+		'question' => __( 'ドメインやサーバーの手配もお願いできますか？', 'vk-site-builder' ),
+		'answer'   => __( 'はい。選び方から設定までお手伝いします。すでにお持ちのものを使うこともできます。', 'vk-site-builder' ),
 	),
 );
 ?>
@@ -34,7 +34,7 @@ $vksb_faqs = array(
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'Frequently asked questions', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'よくあるご質問', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
