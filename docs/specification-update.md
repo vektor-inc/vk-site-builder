@@ -45,6 +45,8 @@ vk-blocks-pro / vk-filter-search-pro / vk-video-block-pro / lightning-g3-pro-uni
   - バージョンを定数 `VKSB_VERSION` にする（ヘッダーの `Version:` から読み取る）。
 - `readme.txt`: 更新画面の「詳細を表示」に出る説明の元になる。changelog は上の決定事項のとおり見出しだけ。
 - `.github/workflows/release.yml`: vk-video-block-pro の 4 つのジョブ（smoke_test → php_unit → release → deploy_vws）を土台に、プラグイン名を vk-site-builder に変えたもの。VWS へ送る secrets の名前は他の製品と同じ（`DEPLOY_*_VWS`）。
+  - GITHUB_TOKEN の権限は、ワークフロー全体を `contents: read` にし、GitHub Release を作るジョブだけ `contents: write` にする。
+  - dist を作った直後に、zip に `vendor/autoload.php` と plugin-update-checker の本体（`plugin-update-checker.php`）が入っているかを確かめ、無ければ失敗させる。PHPUnit のジョブは `vendor/` を開発用に置き換えて実行するため、そこでは zip の中身の欠けに気づけないため。
 - `.wp-env.json`・`.phpunit.xml`・`tests/`: 読み込み・パターンの登録・更新チェッカーの登録を確かめる最小の PHPUnit。リリース手順の前提条件が求めるため。
 - 新しい管理画面・設定項目は増えない。増えるのは WordPress 本体の更新通知と、更新チェッカーが出す「更新を確認」リンクだけ。
 

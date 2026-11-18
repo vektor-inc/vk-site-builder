@@ -5,6 +5,9 @@ on:
       - '[0-9]+.[0-9]+.[0-9]+'
 env:
   plugin_name: vk-site-builder
+# GITHUB_TOKEN の権限は読み取りだけにし、書き込みが要るジョブで個別に足す.
+permissions:
+  contents: read
 jobs:
   # 1. dist 作成 + スモークテスト
   smoke_test:
@@ -40,6 +43,19 @@ jobs:
           sudo mv wp-cli.phar /usr/local/bin/wp
       - name: Create dist
         run: npm run dist
+      # php_unit ジョブは vendor/ を開発用に置き換えて実行するため、配布する zip に更新チェッカーが入っているかはここで確かめる.
+      - name: Check update checker in zip
+        run: |
+          listing=$(unzip -l dist/${{ env.plugin_name }}.zip)
+          for f in \
+            "${{ env.plugin_name }}/vendor/autoload.php" \
+            "${{ env.plugin_name }}/vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php"; do
+            if ! grep -qF " $f" <<< "$listing"; then
+              echo "::error::$f is missing in dist/${{ env.plugin_name }}.zip"
+              exit 1
+            fi
+          done
+          echo "update checker files OK"
       - name: Upload dist artifact
         uses: actions/upload-artifact@v4
         with:
