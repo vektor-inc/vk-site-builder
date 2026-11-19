@@ -12,7 +12,7 @@
  */
 
 $vksb_items = array(
-	array( 'service-web.jpg', __( 'ホームページ制作', 'vk-site-builder' ), __( '企画からデザイン、公開まで一貫して担当します。', 'vk-site-builder' ) ),
+	array( 'service-web.jpg', __( '<span class="text-nowrap">ホームページ</span><span class="text-nowrap">制作</span>', 'vk-site-builder' ), __( '企画からデザイン、公開まで一貫して担当します。', 'vk-site-builder' ) ),
 	array( 'service-seo.jpg', __( '検索対策', 'vk-site-builder' ), __( '検索で見つけてもらえるよう、ページを見直します。', 'vk-site-builder' ) ),
 	array( 'service-support.jpg', __( '更新サポート', 'vk-site-builder' ), __( 'お知らせやページの更新を代わりに行います。', 'vk-site-builder' ) ),
 	array( 'pc-data.jpg', __( 'アクセス解析', 'vk-site-builder' ), __( '毎月の訪問者の動きを、レポートでお伝えします。', 'vk-site-builder' ) ),
@@ -30,8 +30,10 @@ $vksb_items = array(
 <h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '業務内容', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '必要なものだけを選んでご依頼いただけます', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( '必要なものだけを選んでご依頼いただけます', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
@@ -44,14 +46,20 @@ $vksb_items = array(
 <figure class="wp-block-image size-large" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url( vksb_pattern_image_url( $vksb_item[0] ) ); ?>" alt="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|50","bottom":"var:preset|spacing|50","left":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--50);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--50)"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo esc_html( $vksb_item[1] ); ?></h3>
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","right":"var:preset|spacing|50","bottom":"0","left":"var:preset|spacing|50"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"large","className":"is-vk-trim-both"} -->
+<h3 class="wp-block-heading has-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( $vksb_item[1] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php echo esc_html( $vksb_item[2] ); ?></p>
-<!-- /wp:paragraph --></div>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"small","className":"is-vk-trim-both"} -->
+<p class="has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_item[2] ); ?></p>
+<!-- /wp:paragraph -->
+
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <?php endforeach; ?>

@@ -14,7 +14,7 @@
 $vksb_rows = array(
 	array(
 		'image' => 'about-office.jpg',
-		'title' => __( '事業に合ったホームページを', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">事業に合った</span><span class="text-nowrap">ホームページを</span>', 'vk-site-builder' ),
 		'text'  => __( 'デザインの前に、まず事業の仕組みを理解します。ページ・言葉・写真は、御社ならではの強みがお客さまに伝わるように選びます。', 'vk-site-builder' ),
 	),
 	array(
@@ -42,19 +42,27 @@ $vksb_rows = array(
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
-<!-- wp:column {"className":"is-vk-content-width-half","backgroundColor":"primary","textColor":"bg-primary","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70",<?php echo $vksb_inner_pad; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>}}},"contentWidthHalf":true} -->
-<div class="wp-block-column is-vk-content-width-half has-bg-primary-color has-primary-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--70);<?php echo $vksb_inner_css; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>;padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
-<div class="wp-block-group" style="min-height:100%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo esc_html( $vksb_row['title'] ); ?></h2>
+<!-- wp:column {"className":"is-vk-content-width-half","backgroundColor":"primary","textColor":"bg-primary","style":{"spacing":{"padding":{"top":"0","bottom":"0",<?php echo $vksb_inner_pad; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>}}},"contentWidthHalf":true} -->
+<div class="wp-block-column is-vk-content-width-half has-bg-primary-color has-primary-background-color has-text-color has-background" style="padding-top:0;<?php echo $vksb_inner_css; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>;padding-bottom:0">
+
+<!-- wp:group {"style":{"dimensions":{"minHeight":"100%"},"spacing":{"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","verticalAlignment":"center"}} -->
+<div class="wp-block-group" style="min-height:100%"><?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( $vksb_row['title'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php echo esc_html( $vksb_row['text'] ); ?></p>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_row['text'] ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<?php echo vksb_vk_button( __( '詳しく見る', 'vk-site-builder' ), 'outline-white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( '詳しく見る', 'vk-site-builder' ), 'outline-white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

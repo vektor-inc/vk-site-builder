@@ -22,8 +22,10 @@ $vksb_thumbnails = array( 'contact-image.jpg', 'service-support.jpg', 'pc-data.j
 <figure class="wp-block-image size-large" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url( vksb_pattern_image_url( 'about-office.jpg' ) ); ?>" alt="" style="aspect-ratio:4/3;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":3}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0">
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|40"}},"layout":{"type":"grid","columnCount":3}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 <?php foreach ( $vksb_thumbnails as $vksb_thumbnail ) : ?>
 <!-- wp:image {"aspectRatio":"4/3","scale":"cover","sizeSlug":"large","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <figure class="wp-block-image size-large" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url( vksb_pattern_image_url( $vksb_thumbnail ) ); ?>" alt="" style="aspect-ratio:4/3;object-fit:cover"/></figure>
@@ -38,20 +40,28 @@ $vksb_thumbnails = array( 'contact-image.jpg', 'service-support.jpg', 'pc-data.j
 <p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'レンタルオフィス', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( '光が差し込む、明るいオフィス', 'vk-site-builder' ); ?></h2>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( __( '<span class="text-nowrap">光が差し込む、</span><span class="text-nowrap">明るいオフィス</span>', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( '南向きの大きな窓から、たっぷりと光が入るオフィスです。机・椅子・収納がそろっているので、入居したその日から仕事を始められます。', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( '南向きの大きな窓から、たっぷりと光が入るオフィスです。机・椅子・収納がそろっているので、入居したその日から仕事を始められます。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( '会議室と給湯室は、同じフロアのオフィスと共同で使えます。高速インターネットの料金は賃料に含まれます。', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( '会議室と給湯室は、同じフロアのオフィスと共同で使えます。高速インターネットの料金は賃料に含まれます。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php esc_html_e( 'ご契約の前に、内覧していただけます。内覧のご予約はお問い合わせください。', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'ご契約の前に、内覧していただけます。内覧のご予約はお問い合わせください。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>

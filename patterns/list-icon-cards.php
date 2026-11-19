@@ -14,22 +14,22 @@
 $vksb_items = array(
 	array(
 		'icon'  => 'fa-palette',
-		'title' => __( 'デザインの切り替え', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">デザインの</span><span class="text-nowrap">切り替え</span>', 'vk-site-builder' ),
 		'text'  => __( '色や書体の組み合わせを、管理画面からまとめて切り替えられます。', 'vk-site-builder' ),
 	),
 	array(
 		'icon'  => 'fa-mobile-screen-button',
-		'title' => __( 'スマートフォン対応', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">スマートフォン</span><span class="text-nowrap">対応</span>', 'vk-site-builder' ),
 		'text'  => __( '画面の幅に合わせて、メニューやレイアウトが自動で切り替わります。', 'vk-site-builder' ),
 	),
 	array(
 		'icon'  => 'fa-cubes',
-		'title' => __( 'ブロックパターン', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">ブロック</span><span class="text-nowrap">パターン</span>', 'vk-site-builder' ),
 		'text'  => __( 'よく使う組み合わせを、ボタンひとつでページに追加できます。', 'vk-site-builder' ),
 	),
 	array(
 		'icon'  => 'fa-magnifying-glass',
-		'title' => __( '検索エンジン対策', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">検索エンジン</span><span class="text-nowrap">対策</span>', 'vk-site-builder' ),
 		'text'  => __( 'ページごとにタイトルや説明文を設定し、検索結果での見え方を整えます。', 'vk-site-builder' ),
 	),
 	array(
@@ -51,8 +51,10 @@ $vksb_items = array(
 <h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '主な機能', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'サイトづくりに必要な機能を、はじめからそろえています', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'サイトづくりに必要な機能を、はじめからそろえています', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
@@ -60,16 +62,24 @@ $vksb_items = array(
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"grid","columnCount":3,"minimumColumnWidth":"16rem"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 <?php foreach ( $vksb_items as $vksb_item ) : ?>
-<!-- wp:group {"style":{"border":{"color":"var:preset|color|border-normal","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"},"blockGap":"0"}},"layout":{"type":"default"}} -->
-<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--border-normal);border-width:1px;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60)"><?php echo vksb_vk_icon_only( $vksb_item['icon'], 32 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+<!-- wp:group {"style":{"border":{"color":"var:preset|color|border-normal","width":"1px"},"spacing":{"padding":{"top":"0","right":"var:preset|spacing|60","bottom":"0","left":"var:preset|spacing|60"},"blockGap":"0"}},"layout":{"type":"default"}} -->
+<div class="wp-block-group has-border-color" style="border-color:var(--wp--preset--color--border-normal);border-width:1px;padding-top:0;padding-right:var(--wp--preset--spacing--60);padding-bottom:0;padding-left:var(--wp--preset--spacing--60)"><?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0;line-height:1.4"><?php echo esc_html( $vksb_item['title'] ); ?></h3>
+<?php echo vksb_vk_icon_only( $vksb_item['icon'], 32 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"large","className":"is-vk-trim-both"} -->
+<h3 class="wp-block-heading has-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( $vksb_item['title'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php echo esc_html( $vksb_item['text'] ); ?></p>
-<!-- /wp:paragraph --></div>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"small","className":"is-vk-trim-both"} -->
+<p class="has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_item['text'] ); ?></p>
+<!-- /wp:paragraph -->
+
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:group -->
 <?php endforeach; ?>
 </div>

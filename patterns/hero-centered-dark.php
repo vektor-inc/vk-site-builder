@@ -21,12 +21,16 @@
 <p class="has-text-align-center has-bg-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( '中小企業のためのホームページ制作', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"textColor":"bg-primary","fontSize":"xxx-large","className":"is-vk-trim-both"} -->
-<h1 class="wp-block-heading has-text-align-center has-bg-primary-color has-text-color has-xxx-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( '御社の強みを、お客さまを呼ぶホームページに', 'vk-site-builder' ); ?></h1>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"textColor":"bg-primary","fontSize":"xxx-large","className":"is-vk-trim-both"} -->
+<h1 class="wp-block-heading has-text-align-center has-bg-primary-color has-text-color has-xxx-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( __( '<span class="text-nowrap">御社の強みを、</span><span class="text-nowrap">お客さまを呼ぶ</span><span class="text-nowrap">ホームページに</span>', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"fontSize":"medium","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-medium-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( '御社ならではの魅力をうかがい、訪れた人にひと目で伝わるページに仕上げます。', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"medium","className":"is-vk-trim-both"} -->
+<p class="has-text-align-center has-medium-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( '御社ならではの魅力をうかがい、訪れた人にひと目で伝わるページに仕上げます。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

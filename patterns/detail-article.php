@@ -13,14 +13,14 @@
 
 $vksb_sections = array(
 	array(
-		'title' => __( 'まずはお話をうかがいます', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">まずはお話を</span><span class="text-nowrap">うかがいます</span>', 'vk-site-builder' ),
 		'texts' => array(
 			__( 'デザインの話をする前に、事業の内容やお客さまのこと、ホームページで実現したいことをうかがいます。今のホームページや、競合のホームページも拝見します。', 'vk-site-builder' ),
 			__( 'うかがった内容をもとに、必要なページと、それぞれのページで伝えることを決めていきます。', 'vk-site-builder' ),
 		),
 	),
 	array(
-		'title' => __( 'お客さまと一緒につくります', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">お客さまと</span><span class="text-nowrap">一緒につくります</span>', 'vk-site-builder' ),
 		'texts' => array(
 			__( 'デザインと文章の案は、段階ごとにお見せします。確認用のサイトで進み具合を見ながら、ご意見をお聞かせください。', 'vk-site-builder' ),
 			__( '写真や文章は、お客さまにご用意いただくことも、こちらで用意することもできます。スケジュールとご予算に合わせて、良い方法をご提案します。', 'vk-site-builder' ),
@@ -36,12 +36,16 @@ $vksb_sections = array(
 <p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'ホームページのリニューアル', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php esc_html_e( 'リニューアルの進め方', 'vk-site-builder' ); ?></h2>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( __( '<span class="text-nowrap">リニューアルの</span><span class="text-nowrap">進め方</span>', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"fontSize":"large","className":"is-vk-trim-both"} -->
-<p class="has-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( 'リニューアルは、見た目を新しくするだけではありません。ホームページが事業のために果たす役割から見直し、長く使い続けられる形につくり直します。', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"large","className":"is-vk-trim-both"} -->
+<p class="has-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'リニューアルは、見た目を新しくするだけではありません。ホームページが事業のために果たす役割から見直し、長く使い続けられる形につくり直します。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -60,15 +64,19 @@ $vksb_sections = array(
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 	<?php else : ?>
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0">
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 	<?php endif; ?><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"x-large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo esc_html( $vksb_section['title'] ); ?></h3>
+<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( $vksb_section['title'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h3>
 <!-- /wp:heading -->
 	<?php foreach ( $vksb_section['texts'] as $vksb_text ) : ?>
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php echo esc_html( $vksb_text ); ?></p>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_text ); ?></p>
 <!-- /wp:paragraph -->
 	<?php endforeach; ?>
 </div>

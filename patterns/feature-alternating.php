@@ -14,17 +14,17 @@
 $vksb_points = array(
 	array(
 		'image' => 'about-office.jpg',
-		'title' => __( '事業を理解したチームがつくります', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">事業を理解したチームが</span><span class="text-nowrap">つくります</span>', 'vk-site-builder' ),
 		'text'  => __( 'デザインの前に、まずお客さまのもとへうかがい、事業の流れを知るところから始めます。ホームページは、御社ならではの強みから組み立てます。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-web.jpg',
-		'title' => __( 'どの画面でも見やすいデザイン', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">どの画面でも</span><span class="text-nowrap">見やすいデザイン</span>', 'vk-site-builder' ),
 		'text'  => __( 'すべてのページをスマートフォン・タブレット・パソコンで確認するので、どこからでも読みやすく表示されます。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( '公開後もサポートします', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">公開後も</span><span class="text-nowrap">サポートします</span>', 'vk-site-builder' ),
 		'text'  => __( '公開後も、ご質問にお答えしながら、ホームページを新しい状態に保つお手伝いをします。', 'vk-site-builder' ),
 	),
 );
@@ -36,8 +36,10 @@ $vksb_points = array(
 <h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '選ばれる理由', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '私たちが大切にしている3つのこと', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( '私たちが大切にしている3つのこと', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
@@ -63,12 +65,16 @@ $vksb_points = array(
 <p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php echo esc_html( sprintf( /* translators: %s: point number such as 01. */ __( 'ポイント %s', 'vk-site-builder' ), sprintf( '%02d', $vksb_index + 1 ) ) ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"xx-large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-xx-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0;line-height:1.4"><?php echo esc_html( $vksb_point['title'] ); ?></h3>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"xx-large","className":"is-vk-trim-both"} -->
+<h3 class="wp-block-heading has-xx-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( $vksb_point['title'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php echo esc_html( $vksb_point['text'] ); ?></p>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_point['text'] ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

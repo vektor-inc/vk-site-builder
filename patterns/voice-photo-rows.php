@@ -14,13 +14,13 @@
 $vksb_voices = array(
 	array(
 		'image' => 'voice-construction-owner.jpg',
-		'catch' => __( '「何を伝えるか」から、一緒に考えてもらえました', 'vk-site-builder' ),
+		'catch' => __( '<span class="text-nowrap">「何を伝えるか」から、</span><span class="text-nowrap">一緒に考えて</span><span class="text-nowrap">もらえました</span>', 'vk-site-builder' ),
 		'text'  => __( '最初は見た目を新しくしたいだけでした。でも打ち合わせを重ねるうちに、自分たちの強みや、お客さまに本当に伝えたいことが整理できました。完成したホームページを見た取引先から「会社の雰囲気が伝わる」と言ってもらえたのがうれしかったです。', 'vk-site-builder' ),
 		'name'  => __( 'サンプル建設株式会社 代表取締役 田中 様', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'voice-office-manager.jpg',
-		'catch' => __( '困ったときに、すぐ相談できる安心感があります', 'vk-site-builder' ),
+		'catch' => __( '<span class="text-nowrap">困ったときに、</span><span class="text-nowrap">すぐ相談できる</span><span class="text-nowrap">安心感があります</span>', 'vk-site-builder' ),
 		'text'  => __( 'ホームページのことは社内にわかる人がいなかったので、公開後のサポートを重視して選びました。ちょっとした修正もすぐに対応してもらえるので、本業に集中できています。', 'vk-site-builder' ),
 		'name'  => __( 'サンプル税理士事務所 事務長 高橋 様', 'vk-site-builder' ),
 	),
@@ -30,11 +30,13 @@ $vksb_voices = array(
 <div class="wp-block-group alignfull" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><?php echo vksb_spacer( '70' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( 'お客さまインタビュー', 'vk-site-builder' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( __( '<span class="text-nowrap">お客さま</span><span class="text-nowrap">インタビュー</span>', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'ご依頼のきっかけと、その後の変化をうかがいました', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'ご依頼のきっかけと、その後の変化をうかがいました', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 <?php foreach ( $vksb_voices as $vksb_index => $vksb_voice ) : ?>
 	<?php
@@ -55,16 +57,22 @@ $vksb_voices = array(
 <!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><?php echo vksb_vk_icon_only( 'fa-quote-left', 28 ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
-<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}},"typography":{"lineHeight":"1.5"}},"fontSize":"x-large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0;line-height:1.5"><?php echo esc_html( $vksb_voice['catch'] ); ?></h3>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.5"}},"fontSize":"x-large","className":"is-vk-trim-both"} -->
+<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.5"><?php echo vksb_nowrap_text( $vksb_voice['catch'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php echo esc_html( $vksb_voice['text'] ); ?></p>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_voice['text'] ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"align":"right","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"textColor":"text-secondary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-right has-text-secondary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php echo esc_html( $vksb_voice['name'] ); ?></p>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"align":"right","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"text-secondary","fontSize":"small","className":"is-vk-trim-both"} -->
+<p class="has-text-align-right has-text-secondary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_voice['name'] ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->

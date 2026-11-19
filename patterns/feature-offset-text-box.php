@@ -14,22 +14,22 @@
 $vksb_rows = array(
 	array(
 		'image' => 'pc-data.jpg',
-		'title' => __( '毎月、わかりやすいレポートを', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">毎月、</span><span class="text-nowrap">わかりやすい</span><span class="text-nowrap">レポートを</span>', 'vk-site-builder' ),
 		'text'  => __( 'ホームページを何人が訪れ、どのページが見られたのかを、Web に詳しくない方でも読みやすいレポートでお伝えします。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-web.jpg',
-		'title' => __( 'ブランドに合ったデザイン', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">ブランドに合った</span><span class="text-nowrap">デザイン</span>', 'vk-site-builder' ),
 		'text'  => __( '色・書体・写真を事業に合わせて選び、ひと目で御社とわかるホームページにします。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-seo.jpg',
-		'title' => __( '検索で見つけてもらいやすく', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">検索で</span><span class="text-nowrap">見つけて</span><span class="text-nowrap">もらいやすく</span>', 'vk-site-builder' ),
 		'text'  => __( 'お客さまが検索する言葉を選び、それぞれのページの適切な場所に使います。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'service-support.jpg',
-		'title' => __( '困ったときは、いつでも', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">困ったときは、</span><span class="text-nowrap">いつでも</span>', 'vk-site-builder' ),
 		'text'  => __( 'メールやお電話で、いつでもご相談ください。わかりやすい言葉でご説明し、解決するまでお手伝いします。', 'vk-site-builder' ),
 	),
 );
@@ -55,14 +55,20 @@ $vksb_rows = array(
 <figure class="wp-block-image size-large" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url( vksb_pattern_image_url( $vksb_row['image'] ) ); ?>" alt="" style="aspect-ratio:16/9;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:group {"style":{"layout":{"columnStart":<?php echo (int) $vksb_box_start; ?>,"columnSpan":7,"rowStart":1,"rowSpan":2},"shadow":"var:preset|shadow|natural","spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"},"padding":{"top":"var:preset|spacing|60","right":"var:preset|spacing|60","bottom":"var:preset|spacing|60","left":"var:preset|spacing|60"}}},"backgroundColor":"bg-primary","layout":{"type":"default"}} -->
-<div class="wp-block-group has-bg-primary-background-color has-background" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0;padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--60);box-shadow:var(--wp--preset--shadow--natural)"><!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"xx-large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-xx-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo esc_html( $vksb_row['title'] ); ?></h3>
+<!-- wp:group {"style":{"layout":{"columnStart":<?php echo (int) $vksb_box_start; ?>,"columnSpan":7,"rowStart":1,"rowSpan":2},"shadow":"var:preset|shadow|natural","spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"},"padding":{"top":"0","right":"var:preset|spacing|60","bottom":"0","left":"var:preset|spacing|60"}}},"backgroundColor":"bg-primary","layout":{"type":"default"}} -->
+<div class="wp-block-group has-bg-primary-background-color has-background" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0;padding-top:0;padding-right:var(--wp--preset--spacing--60);padding-bottom:0;padding-left:var(--wp--preset--spacing--60);box-shadow:var(--wp--preset--shadow--natural)"><?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"fontSize":"xx-large","className":"is-vk-trim-both"} -->
+<h3 class="wp-block-heading has-xx-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( $vksb_row['title'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h3>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><?php echo esc_html( $vksb_row['text'] ); ?></p>
-<!-- /wp:paragraph --></div>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_row['text'] ); ?></p>
+<!-- /wp:paragraph -->
+
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:group -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"layout":{"columnStart":<?php echo (int) $vksb_image_start; ?>,"columnSpan":7,"rowStart":2,"rowSpan":1},"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

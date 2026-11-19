@@ -13,7 +13,7 @@
 
 $vksb_steps = array(
 	array(
-		'title' => __( 'プラグインをインストールして有効化する', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">プラグインを</span><span class="text-nowrap">インストールして</span><span class="text-nowrap">有効化する</span>', 'vk-site-builder' ),
 		'text'  => __( '管理画面の「プラグイン」→「新規追加」でプラグインを検索し、インストールしてから「有効化」をクリックします。', 'vk-site-builder' ),
 	),
 	array(
@@ -29,7 +29,7 @@ $vksb_steps = array(
 		'text'  => __( '画面下の「変更を保存」ボタンをクリックします。保存されると、メッセージが表示されます。', 'vk-site-builder' ),
 	),
 	array(
-		'title' => __( 'サイトで確認する', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">サイトで</span><span class="text-nowrap">確認する</span>', 'vk-site-builder' ),
 		'text'  => __( 'サイトを開いて、設定したとおりに表示されているか確認します。', 'vk-site-builder' ),
 	),
 );
@@ -44,8 +44,10 @@ $vksb_last_index = count( $vksb_steps ) - 1;
 <h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '設定の手順', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( '管理画面で、次の手順で設定します', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( '管理画面で、次の手順で設定します', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|60","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
@@ -67,7 +69,7 @@ $vksb_last_index = count( $vksb_steps ) - 1;
 <!-- /wp:group -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"x-large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_step['title'] ); ?></h3>
+<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo vksb_nowrap_text( $vksb_step['title'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -87,8 +89,10 @@ $vksb_last_index = count( $vksb_steps ) - 1;
 <p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_step['text'] ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:image {"sizeSlug":"large","borderColor":"border-normal","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}},"border":{"width":"1px"}}} -->
-<figure class="wp-block-image size-large has-custom-border" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0"><img src="<?php echo esc_url( vksb_pattern_image_url( 'dummy-IT-service.jpg' ) ); ?>" alt="" class="has-border-color has-border-normal-border-color" style="border-width:1px"/></figure>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:image {"sizeSlug":"large","borderColor":"border-normal","style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"border":{"width":"1px"}}} -->
+<figure class="wp-block-image size-large has-custom-border" style="margin-top:0;margin-bottom:0"><img src="<?php echo esc_url( vksb_pattern_image_url( 'dummy-IT-service.jpg' ) ); ?>" alt="" class="has-border-color has-border-normal-border-color" style="border-width:1px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

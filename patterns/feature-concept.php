@@ -27,8 +27,10 @@ $vksb_paragraphs = array(
 <p class="has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;letter-spacing:0.15em;text-transform:uppercase"><?php esc_html_e( 'コンセプト', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"}},"typography":{"lineHeight":"1.5"}},"fontSize":"xxx-large","className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading has-xxx-large-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0;line-height:1.5"><?php esc_html_e( '御社の歩みを、次の世代へ', 'vk-site-builder' ); ?></h2>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.5"}},"fontSize":"xxx-large","className":"is-vk-trim-both"} -->
+<h2 class="wp-block-heading has-xxx-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.5"><?php echo vksb_nowrap_text( __( '<span class="text-nowrap">御社の歩みを、</span><span class="text-nowrap">次の世代へ</span>', 'vk-site-builder' ) ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -52,8 +54,12 @@ $vksb_paragraphs = array(
 <!-- wp:column {"verticalAlignment":"center","width":"66.66%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:66.66%">
 <?php foreach ( $vksb_paragraphs as $vksb_index => $vksb_paragraph ) : ?>
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"<?php echo 0 === $vksb_index ? '0' : 'var:preset|spacing|50'; ?>","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:<?php echo 0 === $vksb_index ? '0' : 'var(--wp--preset--spacing--50)'; ?>;margin-bottom:0"><?php echo esc_html( $vksb_paragraph ); ?></p>
+<?php if ( 0 !== $vksb_index ) : ?>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<?php endif; ?>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_paragraph ); ?></p>
 <!-- /wp:paragraph -->
 <?php endforeach; ?>
 </div>

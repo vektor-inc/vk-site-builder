@@ -31,20 +31,28 @@ $vksb_notes = array(
 <h2 class="wp-block-heading has-text-align-center is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php esc_html_e( '費用について', 'vk-site-builder' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"var:preset|spacing|40","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
-<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--40);margin-bottom:0"><?php esc_html_e( 'ご依頼の前に、費用をはっきりお伝えします', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"primary","fontSize":"small","className":"is-vk-trim-both"} -->
+<p class="has-text-align-center has-primary-color has-text-color has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'ご依頼の前に、費用をはっきりお伝えします', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php esc_html_e( '初回のご相談は無料です。ご相談の内容に合わせて、かかる費用をわかりやすくご説明しますので、ご依頼いただくかどうかは落ち着いてお決めください。', 'vk-site-builder' ); ?></p>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( '初回のご相談は無料です。ご相談の内容に合わせて、かかる費用をわかりやすくご説明しますので、ご依頼いただくかどうかは落ち着いてお決めください。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:table {"hasFixedLayout":false,"className":"is-style-vk-table-border-top-bottom","style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"fontSize":"small"} -->
-<figure class="wp-block-table is-style-vk-table-border-top-bottom has-small-font-size" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><table><thead><tr><th class="has-text-align-left" data-align="left"><?php esc_html_e( '項目', 'vk-site-builder' ); ?></th><th class="has-text-align-left" data-align="left"><?php esc_html_e( '費用', 'vk-site-builder' ); ?></th><th class="has-text-align-left" data-align="left"><?php esc_html_e( '備考', 'vk-site-builder' ); ?></th></tr></thead><tbody><?php foreach ( $vksb_fees as $vksb_fee ) : ?><tr><td><strong><?php echo esc_html( $vksb_fee[0] ); ?></strong></td><td><?php echo esc_html( $vksb_fee[1] ); ?></td><td><?php echo esc_html( $vksb_fee[2] ); ?></td></tr><?php endforeach; ?></tbody></table></figure>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:table {"hasFixedLayout":false,"className":"is-style-vk-table-border-top-bottom","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"fontSize":"small"} -->
+<figure class="wp-block-table is-style-vk-table-border-top-bottom has-small-font-size" style="margin-top:0;margin-bottom:0"><table><thead><tr><th class="has-text-align-left" data-align="left"><?php esc_html_e( '項目', 'vk-site-builder' ); ?></th><th class="has-text-align-left" data-align="left"><?php esc_html_e( '費用', 'vk-site-builder' ); ?></th><th class="has-text-align-left" data-align="left"><?php esc_html_e( '備考', 'vk-site-builder' ); ?></th></tr></thead><tbody><?php foreach ( $vksb_fees as $vksb_fee ) : ?><tr><td><strong><?php echo esc_html( $vksb_fee[0] ); ?></strong></td><td><?php echo esc_html( $vksb_fee[1] ); ?></td><td><?php echo esc_html( $vksb_fee[2] ); ?></td></tr><?php endforeach; ?></tbody></table></figure>
 <!-- /wp:table -->
 
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--50);margin-bottom:0">
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0">
 <?php foreach ( $vksb_notes as $vksb_note ) : ?>
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"textColor":"text-secondary","fontSize":"x-small","className":"is-vk-trim-both"} -->
 <p class="has-text-secondary-color has-text-color has-x-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_note ); ?></p>

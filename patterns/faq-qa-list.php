@@ -13,15 +13,15 @@
 
 $vksb_faqs = array(
 	array(
-		'question' => __( '遠方の会社でも依頼できますか？', 'vk-site-builder' ),
+		'question' => __( '<span class="text-nowrap">遠方の会社でも</span><span class="text-nowrap">依頼できますか？</span>', 'vk-site-builder' ),
 		'answer'   => __( 'はい。打ち合わせはオンラインで行いますので、全国どこからでもご依頼いただけます。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( '最初の打ち合わせまでに、準備するものはありますか？', 'vk-site-builder' ),
+		'question' => __( '<span class="text-nowrap">最初の打ち合わせまでに、</span><span class="text-nowrap">準備するものは</span><span class="text-nowrap">ありますか？</span>', 'vk-site-builder' ),
 		'answer'   => __( '特別な準備は必要ありません。会社案内や写真があれば、お持ちください。', 'vk-site-builder' ),
 	),
 	array(
-		'question' => __( '公開後のサポートはありますか？', 'vk-site-builder' ),
+		'question' => __( '<span class="text-nowrap">公開後のサポートは</span><span class="text-nowrap">ありますか？</span>', 'vk-site-builder' ),
 		'answer'   => __( 'はい。更新作業・バックアップ・ホームページに関するご質問に対応する、月額のプランをご用意しています。', 'vk-site-builder' ),
 	),
 );
@@ -42,14 +42,17 @@ $vksb_faqs = array(
 <!-- wp:group {"style":{"border":{"top":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"0"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
 <div class="wp-block-group" style="border-top-color:var(--wp--preset--color--border-normal);border-top-width:1px;margin-top:0;margin-bottom:0">
 <?php foreach ( $vksb_faqs as $vksb_faq ) : ?>
-<!-- wp:group {"style":{"border":{"bottom":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|60"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
+<!-- wp:group {"style":{"border":{"bottom":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"default"}} -->
+<div class="wp-block-group" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;padding-top:0;padding-bottom:0"><?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"top"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1","fontStyle":"normal","fontWeight":"700"},"layout":{"selfStretch":"fixedNoShrink","flexSize":"1.5em"}},"textColor":"primary","fontSize":"xx-large","className":"is-vk-trim-both"} -->
 <p class="has-primary-color has-text-color has-xx-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0;font-style:normal;font-weight:700;line-height:1">Q</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"layout":{"selfStretch":"fill"}},"fontSize":"x-large","className":"is-vk-trim-both"} -->
-<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_faq['question'] ); ?></h3>
+<h3 class="wp-block-heading has-x-large-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo vksb_nowrap_text( $vksb_faq['question'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h3>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->
 
@@ -62,6 +65,9 @@ $vksb_faqs = array(
 <p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_faq['answer'] ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:group -->
 <?php endforeach; ?>
 </div>

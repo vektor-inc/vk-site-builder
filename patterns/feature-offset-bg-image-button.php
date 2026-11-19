@@ -14,12 +14,12 @@
 $vksb_rows = array(
 	array(
 		'image' => 'about-office.jpg',
-		'title' => __( '本当の課題を解決するために', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">本当の課題を</span><span class="text-nowrap">解決するために</span>', 'vk-site-builder' ),
 		'text'  => __( 'ホームページが大切だとわかっていても、忙しくて手が付けられない、更新が続かないという会社は少なくありません。私たちは、誰でもかんたんにホームページを運営できる仕組みをつくっています。', 'vk-site-builder' ),
 	),
 	array(
 		'image' => 'pc-data.jpg',
-		'title' => __( '使う人のことを考えてつくりました', 'vk-site-builder' ),
+		'title' => __( '<span class="text-nowrap">使う人のことを</span><span class="text-nowrap">考えてつくりました</span>', 'vk-site-builder' ),
 		'text'  => __( 'ページの更新に、専門の知識はいりません。使い方はスタッフがご説明し、公開後もサポートを続けます。', 'vk-site-builder' ),
 	),
 );
@@ -33,11 +33,13 @@ $vksb_rows = array(
 <!-- wp:columns {"verticalAlignment":"center","align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":{"top":"var:preset|spacing|60","left":"0"}}}} -->
 <div class="wp-block-columns alignfull are-vertically-aligned-center" style="margin-top:0;margin-bottom:0"><!-- wp:column {"verticalAlignment":"center","className":"is-vk-content-width-half","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"var:preset|spacing|80"}}},"contentWidthHalf":true} -->
 <div class="wp-block-column is-vertically-aligned-center is-vk-content-width-half" style="padding-top:0;padding-right:var(--wp--preset--spacing--80);padding-left:0;padding-bottom:0"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo esc_html( $vksb_rows[0]['title'] ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( $vksb_rows[0]['title'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php echo esc_html( $vksb_rows[0]['text'] ); ?></p>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_rows[0]['text'] ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
@@ -63,11 +65,13 @@ $vksb_rows = array(
 <!-- wp:columns {"verticalAlignment":"center","align":"full","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"blockGap":{"top":"var:preset|spacing|60","left":"0"}}},"className":"is-vk-row-reverse","reverse":true} -->
 <div class="wp-block-columns alignfull are-vertically-aligned-center is-vk-row-reverse" style="margin-top:0;margin-bottom:0"><!-- wp:column {"verticalAlignment":"center","className":"is-vk-content-width-half","style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"var:preset|spacing|80","right":"0"}}},"contentWidthHalf":true} -->
 <div class="wp-block-column is-vertically-aligned-center is-vk-content-width-half" style="padding-top:0;padding-right:0;padding-left:var(--wp--preset--spacing--80);padding-bottom:0"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}},"typography":{"lineHeight":"1.4"}},"className":"is-vk-trim-both"} -->
-<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo esc_html( $vksb_rows[1]['title'] ); ?></h2>
+<h2 class="wp-block-heading is-vk-trim-both" style="margin-top:0;margin-bottom:0;line-height:1.4"><?php echo vksb_nowrap_text( $vksb_rows[1]['title'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|60","bottom":"0"}}},"className":"is-vk-trim-both"} -->
-<p class="is-vk-trim-both" style="margin-top:var(--wp--preset--spacing--60);margin-bottom:0"><?php echo esc_html( $vksb_rows[1]['text'] ); ?></p>
+<?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-vk-trim-both"} -->
+<p class="is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php echo esc_html( $vksb_rows[1]['text'] ); ?></p>
 <!-- /wp:paragraph -->
 
 <?php echo vksb_spacer( '60' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
