@@ -40,7 +40,7 @@ $vksb_items = array(
 <p class="has-small-font-size is-vk-trim-both" style="margin-top:0;margin-bottom:0"><?php esc_html_e( 'すべてのサイトの状態を 1 つの画面でまとめて確認できます。', 'vk-site-builder' ); ?></p>
 <!-- /wp:paragraph -->
 
-<?php echo vksb_spacer( '40' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+<?php echo vksb_spacer( '50' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 
 <!-- wp:list {"className":"is-style-vk-check-mark","color":"primary","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <ul style="margin-top:0;margin-bottom:0" class="wp-block-list is-style-vk-check-mark"><?php foreach ( $vksb_items as $vksb_item ) : ?><!-- wp:list-item -->
