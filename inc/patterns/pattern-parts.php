@@ -71,16 +71,22 @@ const VKSB_VK_BUTTON_STYLES = array(
 /**
  * VK Blocks のボタンブロックのマークアップを返す
  *
- * 大きさは lg で揃える. 角の丸みはサイトのデザインで決まるため、ここでは指定しない. 塗りのボタンには、文字の後ろに右向きの矢印を付ける.
+ * 大きさは lg で揃える. 角の丸みはサイトのデザインで決まるため、ここでは指定しない. 塗りのボタンには、文字の後ろに右向きの矢印を付ける. $icon を渡すと、塗りでも線でも、矢印の代わりにそのアイコンを付ける.
  *
  * @param string $text  ボタンの文字（翻訳済み・エスケープ前）.
  * @param string $style 色の種類. VKSB_VK_BUTTON_STYLES のキー.
  * @param string $align 揃え. left / center / right.
+ * @param string|null $icon 文字の後ろに付けるアイコン（Font Awesome の名前. 例: fa-download）. null なら色の種類の既定（塗りは矢印、線は無し）.
  * @return string ブロックのマークアップ.
  */
-function vksb_vk_button( $text, $style = 'primary', $align = 'left' ) {
+function vksb_vk_button( $text, $style = 'primary', $align = 'left', $icon = null ) {
 	$settings = VKSB_VK_BUTTON_STYLES[ $style ];
-	$arrow    = '<i class="fa-solid fa-arrow-right"></i>';
+	if ( null !== $icon ) {
+		$settings['arrow'] = true;
+	} else {
+		$icon = 'fa-arrow-right';
+	}
+	$arrow = '<i class="fa-solid ' . $icon . '"></i>';
 
 	// 属性は、既定値と同じものを書かない（ブロックエディタの出力に合わせる）.
 	$attrs = array_merge( array( 'buttonSize' => 'lg' ), $settings['attrs'] );
@@ -90,7 +96,7 @@ function vksb_vk_button( $text, $style = 'primary', $align = 'left' ) {
 	if ( $settings['arrow'] ) {
 		$attrs['fontAwesomeIconAfter'] = $arrow;
 	}
-	$icon_html = $settings['arrow'] ? '<i class="fa-solid fa-arrow-right vk_button_link_after"></i>' : '';
+	$icon_html = $settings['arrow'] ? '<i class="fa-solid ' . esc_attr( $icon ) . ' vk_button_link_after"></i>' : '';
 
 	return '<!-- wp:vk-blocks/button ' . serialize_block_attributes( $attrs ) . ' -->' . "\n"
 		. '<div class="wp-block-vk-blocks-button vk_button vk_button-color-custom vk_button-align-' . esc_attr( $align ) . '">'
@@ -169,4 +175,17 @@ function vksb_vk_icon_only( $icon, $size, $color = 'primary', $align = 'left' ) 
 		. '<i style="font-size:' . $size . 'px" class="fa-solid vk_icon_font  ' . esc_attr( $icon ) . '"></i>'
 		. '</div></div></div>' . "\n"
 		. '<!-- /wp:vk-blocks/icon -->';
+}
+
+/**
+ * 改行させたくない語句を囲んだ文を返す
+ *
+ * 文の中の語句を <span class="text-nowrap"> で囲むと、画面が狭いときも、その語句の途中では折り返さない.
+ * クラスは VK Blocks の書式「No wrap」と同じもの. ブロックエディタでも、その書式として読み込まれる.
+ *
+ * @param string $text 翻訳済みの文. 囲む語句を <span class="text-nowrap"> で書く.
+ * @return string span 以外のタグを取り除いた文.
+ */
+function vksb_nowrap_text( $text ) {
+	return wp_kses( $text, array( 'span' => array( 'class' => true ) ) );
 }
