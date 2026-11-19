@@ -96,10 +96,12 @@ function vksb_vk_button( $text, $style = 'primary', $align = 'left', $icon = nul
 	if ( $settings['arrow'] ) {
 		$attrs['fontAwesomeIconAfter'] = $arrow;
 	}
+	// VK Blocks はボタンの下に余白を付ける. 下の余白はスペーサーで付けるので 0 にする.
+	$attrs['className'] = 'vk_block-margin-0--margin-bottom';
 	$icon_html = $settings['arrow'] ? '<i class="fa-solid ' . esc_attr( $icon ) . ' vk_button_link_after"></i>' : '';
 
 	return '<!-- wp:vk-blocks/button ' . serialize_block_attributes( $attrs ) . ' -->' . "\n"
-		. '<div class="wp-block-vk-blocks-button vk_button vk_button-color-custom vk_button-align-' . esc_attr( $align ) . '">'
+		. '<div class="wp-block-vk-blocks-button vk_button vk_button-color-custom vk_button-align-' . esc_attr( $align ) . ' vk_block-margin-0--margin-bottom">'
 		. '<a class="vk_button_link btn ' . esc_attr( $settings['classes'] ) . ' btn-lg" role="button" aria-pressed="true" rel="noopener">'
 		. '<div class="vk_button_link_caption"><span class="vk_button_link_txt">' . esc_html( $text ) . '</span>' . $icon_html . '</div>'
 		. '</a></div>' . "\n"
@@ -135,8 +137,11 @@ function vksb_vk_icon( $icon, $size, $margin, $color = 'primary', $font_color = 
 	$font_class  = $font_color ? ' has-text-color has-' . $font_color . '-color ' : '';
 	$box         = 'calc(' . $size . 'px + ' . ( $margin * 2 ) . 'px)';
 
+	// VK Blocks は狭い画面でアイコンの下に余白を付ける. 下の余白はスペーサーで付けるので 0 にする.
+	$attrs['className'] = 'vk_block-margin-0--margin-bottom';
+
 	return '<!-- wp:vk-blocks/icon ' . serialize_block_attributes( $attrs ) . ' -->' . "\n"
-		. '<div class="wp-block-vk-blocks-icon vk_icon"><div class="' . esc_attr( $frame_class ) . '">'
+		. '<div class="wp-block-vk-blocks-icon vk_icon vk_block-margin-0--margin-bottom"><div class="' . esc_attr( $frame_class ) . '">'
 		. '<div class="vk_icon_border has-background has-' . esc_attr( $color ) . '-background-color" style="width:' . $box . ';height:' . $box . '">'
 		. '<i style="font-size:' . $size . 'px" class="fa-solid vk_icon_font ' . $font_class . ' ' . esc_attr( $icon ) . '"></i>'
 		. '</div></div></div>' . "\n"
@@ -169,8 +174,11 @@ function vksb_vk_icon_only( $icon, $size, $color = 'primary', $align = 'left' ) 
 	$frame_class = 'left' === $align ? 'vk_icon_frame' : 'vk_icon_frame text-' . $align;
 	$box         = 'calc(' . $size . 'px + 0px)';
 
+	// VK Blocks は狭い画面でアイコンの下に余白を付ける. 下の余白はスペーサーで付けるので 0 にする.
+	$attrs['className'] = 'vk_block-margin-0--margin-bottom';
+
 	return '<!-- wp:vk-blocks/icon ' . serialize_block_attributes( $attrs ) . ' -->' . "\n"
-		. '<div class="wp-block-vk-blocks-icon vk_icon"><div class="' . esc_attr( $frame_class . ' is-style-noline' ) . '">'
+		. '<div class="wp-block-vk-blocks-icon vk_icon vk_block-margin-0--margin-bottom"><div class="' . esc_attr( $frame_class . ' is-style-noline' ) . '">'
 		. '<div class="vk_icon_border has-text-color has-' . esc_attr( $color ) . '-color" style="width:' . $box . ';height:' . $box . '">'
 		. '<i style="font-size:' . $size . 'px" class="fa-solid vk_icon_font  ' . esc_attr( $icon ) . '"></i>'
 		. '</div></div></div>' . "\n"
