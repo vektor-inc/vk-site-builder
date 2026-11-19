@@ -3,7 +3,7 @@
  * Plugin Name:       VK Site Builder
  * Plugin URI:        https://github.com/vektor-inc/vk-site-builder
  * Description:       サイト制作に使うブロックパターンをまとめたプラグインです。
- * Version:           0.8.0
+ * Version:           0.9.0
  * Requires at least: 6.5
  * Requires PHP:      7.4
  * Author:            Vektor,Inc.
