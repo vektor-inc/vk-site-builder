@@ -2,18 +2,18 @@
 /**
  * Title: CTA: Band in the main color
  * Slug: vk-site-builder/cta-primary-band
- * Description: A call to action on a full-width band in the main color, with a heading and a text on the left and a button on the right.
+ * Description: A call to action on a full-width band with a background photo covered in the main color, with a heading and a text on the left and a button on the right.
  * Categories: vk-site-builder-cta
  * Keywords: cta, call to action, contact, band
  * Layout: stack
- * Images: none
+ * Images: photo
  *
  * @package VK_Site_Builder
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"border":{"bottom":{"color":"var:preset|color|border-normal","width":"1px"}},"spacing":{"padding":{"top":"0","right":"var:preset|spacing|50","bottom":"0","left":"var:preset|spacing|50"}}},"backgroundColor":"primary","textColor":"bg-primary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-bg-primary-color has-primary-background-color has-text-color has-background" style="border-bottom-color:var(--wp--preset--color--border-normal);border-bottom-width:1px;padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50)"><!-- wp:spacer {"height":"var:preset|spacing|70","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
+<!-- wp:cover {"url":"<?php echo esc_url( vksb_pattern_image_url( 'pc-data.jpg' ) ); ?>","dimRatio":80,"overlayColor":"primary","isUserOverlayColor":true,"minHeight":1,"minHeightUnit":"px","align":"full","style":{"spacing":{"padding":{"top":"0","right":"var:preset|spacing|50","bottom":"0","left":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-cover alignfull" style="padding-top:0;padding-right:var(--wp--preset--spacing--50);padding-bottom:0;padding-left:var(--wp--preset--spacing--50);min-height:1px"><img class="wp-block-cover__image-background" alt="" src="<?php echo esc_url( vksb_pattern_image_url( 'pc-data.jpg' ) ); ?>" data-object-fit="cover"/><span aria-hidden="true" class="wp-block-cover__background has-primary-background-color has-background-dim-80 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:spacer {"height":"var:preset|spacing|70","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
@@ -35,5 +35,5 @@
 
 <!-- wp:spacer {"height":"var:preset|spacing|70","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->
 <div style="margin-top:0;margin-bottom:0;height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>
-<!-- /wp:spacer --></div>
-<!-- /wp:group -->
+<!-- /wp:spacer --></div></div>
+<!-- /wp:cover -->
