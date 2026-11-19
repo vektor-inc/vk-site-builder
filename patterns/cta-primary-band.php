@@ -30,7 +30,7 @@
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
-<?php echo vksb_vk_button( __( 'お問い合わせ', 'vk-site-builder' ), 'white' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+<?php echo vksb_vk_button( __( 'お問い合わせ', 'vk-site-builder' ), 'white', 'left', null, 'md' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 <!-- /wp:group -->
 
 <!-- wp:spacer {"height":"var:preset|spacing|70","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}}} -->

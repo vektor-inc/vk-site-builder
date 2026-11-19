@@ -71,15 +71,16 @@ const VKSB_VK_BUTTON_STYLES = array(
 /**
  * VK Blocks のボタンブロックのマークアップを返す
  *
- * 大きさは lg で揃える. 角の丸みはサイトのデザインで決まるため、ここでは指定しない. 塗りのボタンには、文字の後ろに右向きの矢印を付ける. $icon を渡すと、塗りでも線でも、矢印の代わりにそのアイコンを付ける.
+ * 大きさは $size で指定する（既定は lg）. 角の丸みはサイトのデザインで決まるため、ここでは指定しない. 塗りのボタンには、文字の後ろに右向きの矢印を付ける. $icon を渡すと、塗りでも線でも、矢印の代わりにそのアイコンを付ける.
  *
  * @param string $text  ボタンの文字（翻訳済み・エスケープ前）.
  * @param string $style 色の種類. VKSB_VK_BUTTON_STYLES のキー.
  * @param string $align 揃え. left / center / right.
  * @param string|null $icon 文字の後ろに付けるアイコン（Font Awesome の名前. 例: fa-download）. null なら色の種類の既定（塗りは矢印、線は無し）.
+ * @param string      $size 大きさ. lg / md.
  * @return string ブロックのマークアップ.
  */
-function vksb_vk_button( $text, $style = 'primary', $align = 'left', $icon = null ) {
+function vksb_vk_button( $text, $style = 'primary', $align = 'left', $icon = null, $size = 'lg' ) {
 	$settings = VKSB_VK_BUTTON_STYLES[ $style ];
 	if ( null !== $icon ) {
 		$settings['arrow'] = true;
@@ -89,7 +90,8 @@ function vksb_vk_button( $text, $style = 'primary', $align = 'left', $icon = nul
 	$arrow = '<i class="fa-solid ' . $icon . '"></i>';
 
 	// 属性は、既定値と同じものを書かない（ブロックエディタの出力に合わせる）.
-	$attrs = array_merge( array( 'buttonSize' => 'lg' ), $settings['attrs'] );
+	// md は VK Blocks の既定値なので、属性に書かない.
+	$attrs = 'md' === $size ? $settings['attrs'] : array_merge( array( 'buttonSize' => $size ), $settings['attrs'] );
 	if ( 'left' !== $align ) {
 		$attrs['buttonAlign'] = $align;
 	}
@@ -102,7 +104,7 @@ function vksb_vk_button( $text, $style = 'primary', $align = 'left', $icon = nul
 
 	return '<!-- wp:vk-blocks/button ' . serialize_block_attributes( $attrs ) . ' -->' . "\n"
 		. '<div class="wp-block-vk-blocks-button vk_button vk_button-color-custom vk_button-align-' . esc_attr( $align ) . ' vk_block-margin-0--margin-bottom">'
-		. '<a class="vk_button_link btn ' . esc_attr( $settings['classes'] ) . ' btn-lg" role="button" aria-pressed="true" rel="noopener">'
+		. '<a class="vk_button_link btn ' . esc_attr( $settings['classes'] ) . ' btn-' . esc_attr( $size ) . '" role="button" aria-pressed="true" rel="noopener">'
 		. '<div class="vk_button_link_caption"><span class="vk_button_link_txt">' . esc_html( $text ) . '</span>' . $icon_html . '</div>'
 		. '</a></div>' . "\n"
 		. '<!-- /wp:vk-blocks/button -->';
